@@ -1,0 +1,28 @@
+package com.smp.sip;
+
+import android.content.Context;
+import android.net.sip.SipAudioCall;
+import android.net.sip.SipAudioCall.Listener;
+import android.net.sip.SipException;
+import android.net.sip.SipManager;
+import android.net.sip.SipProfile;
+
+public class AudioSipManager
+{
+	private SipManager manager;
+	public AudioSipManager(Context context)
+	{
+		manager = SipManager.newInstance(context);
+	}
+	
+	public void open(SipProfile localProfile) throws SipException
+	{
+		manager.open(localProfile);
+	}
+
+	public SipAudioCall makeAudioCall(SipProfile me, SipProfile other,
+			Listener listener, int i) throws SipException
+	{
+		return manager.makeAudioCall(me, other, listener, i);
+	}
+}

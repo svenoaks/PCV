@@ -1,0 +1,6 @@
+package com.smp.sip;
+
+public class AudioSipManager extends AudioSipManager
+{
+
+}
