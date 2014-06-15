@@ -1,0 +1,13 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+
+NDK_TOOLCHAIN_VERSION := clang
+LOCAL_MODULE    := smp_rtp_jni
+LOCAL_SRC_FILES :=  \ 
+					rtp_jni.cpp \
+					AmrCodec.cpp
+APP_CPPFLAGS += -std=c++11
+
+
+include $(BUILD_SHARED_LIBRARY)

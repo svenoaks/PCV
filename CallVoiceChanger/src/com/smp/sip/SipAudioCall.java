@@ -18,10 +18,12 @@ package com.smp.sip;
 
 import android.content.Context;
 import android.media.AudioManager;
-import android.net.rtp.AudioCodec;
-import android.net.rtp.AudioGroup;
-import android.net.rtp.AudioStream;
-import android.net.rtp.RtpStream;
+
+import com.smp.rtp.AudioCodec;
+import com.smp.rtp.AudioGroup;
+import com.smp.rtp.AudioStream;
+import com.smp.rtp.RtpStream;
+
 import android.net.sip.SipErrorCode;
 import android.net.sip.SipException;
 import android.net.sip.SipManager;

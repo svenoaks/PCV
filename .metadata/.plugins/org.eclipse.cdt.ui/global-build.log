@@ -1,0 +1,226 @@
+00:55:32 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= rtp_jni.cpp
+make: /Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/arm-linux-androideabi-g++: No such file or directory
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/rtp_jni.o] Error 1
+01:05:12 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Clean          : smp_rtp_jni [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+01:05:25 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= rtp_jni.cpp
+make: /Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/arm-linux-androideabi-g++: No such file or directory
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/rtp_jni.o] Error 1
+01:06:39 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= rtp_jni.cpp
+make: /Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/arm-linux-androideabi-g++: No such file or directory
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/rtp_jni.o] Error 1
+01:07:01 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= rtp_jni.cpp
+make: /Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/arm-linux-androideabi-g++: No such file or directory
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/rtp_jni.o] Error 1
+01:09:30 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= rtp_jni.cpp
+make: /Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/arm-linux-androideabi-g++: No such file or directory
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/rtp_jni.o] Error 1
+01:09:38 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= rtp_jni.cpp
+make: /Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/arm-linux-androideabi-g++: No such file or directory
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/rtp_jni.o] Error 1
+01:09:46 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Clean          : smp_rtp_jni [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+01:09:55 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= rtp_jni.cpp
+make: /Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/arm-linux-androideabi-g++: No such file or directory
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/rtp_jni.o] Error 1
+01:10:28 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Clean          : smp_rtp_jni [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+01:10:44 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= smp_rtp_jni.cpp
+make: /Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/arm-linux-androideabi-g++: No such file or directory
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/smp_rtp_jni.o] Error 1
+01:11:19 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= smp_rtp_jni.cpp
+make: /Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/arm-linux-androideabi-g++: No such file or directory
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/smp_rtp_jni.o] Error 1
+01:13:10 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= smp_rtp_jni.cpp
+make: /Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/arm-linux-androideabi-g++: No such file or directory
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/smp_rtp_jni.o] Error 1
+01:14:42 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= smp_rtp_jni.cpp
+make: /Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/arm-linux-androideabi-g++: No such file or directory
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/smp_rtp_jni.o] Error 1
+01:15:09 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Clean          : smp_rtp_jni [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+01:15:15 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= smp_rtp_jni.cpp
+make: /Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/arm-linux-androideabi-g++: No such file or directory
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/smp_rtp_jni.o] Error 1
+01:18:06 **** Build of configuration Default for project tester ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: tester <= tester.cpp
+make: /Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/arm-linux-androideabi-g++: No such file or directory
+make: *** [obj/local/armeabi/objs/tester/tester.o] Error 1
+01:43:20 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= smp_rtp_jni.cpp
+make: /Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86/bin/arm-linux-androideabi-g++: No such file or directory
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/smp_rtp_jni.o] Error 1
+02:03:52 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Clean          : smp_rtp_jni [armeabi]
+[armeabi] Clean          : stdc++ [armeabi]
+02:03:52 **** Clean-only build of configuration Default for project tester ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build clean 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Clean          : stdc++ [armeabi]
+[armeabi] Clean          : tester [armeabi]
+02:04:01 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= smp_rtp_jni.cpp
+[armeabi] StaticLibrary  : libstdc++.a
+[armeabi] SharedLibrary  : libsmp_rtp_jni.so
+[armeabi] Install        : libsmp_rtp_jni.so => libs/armeabi/libsmp_rtp_jni.so
+02:09:17 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= rtp_jni.cpp
+[armeabi] SharedLibrary  : libsmp_rtp_jni.so
+[armeabi] Install        : libsmp_rtp_jni.so => libs/armeabi/libsmp_rtp_jni.so
+02:10:45 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= rtp_jni.cpp
+[armeabi] SharedLibrary  : libsmp_rtp_jni.so
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.6/../../../../arm-linux-androideabi/bin/ld: ./obj/local/armeabi/objs/smp_rtp_jni/rtp_jni.o: in function JNI_OnLoad:jni/rtp_jni.cpp:24: error: undefined reference to 'registerRtpStream(_JNIEnv*)'
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.6/../../../../arm-linux-androideabi/bin/ld: ./obj/local/armeabi/objs/smp_rtp_jni/rtp_jni.o: in function JNI_OnLoad:jni/rtp_jni.cpp:24: error: undefined reference to 'registerAudioGroup(_JNIEnv*)'
+collect2: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_rtp_jni.so] Error 1
+02:11:25 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= rtp_jni.cpp
+jni/rtp_jni.cpp: In function 'jint JNI_OnLoad(JavaVM*, void*)':
+jni/rtp_jni.cpp:22:19: error: 'nullptr' was not declared in this scope
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/rtp_jni.o] Error 1
+02:12:33 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= rtp_jni.cpp
+[armeabi] SharedLibrary  : libsmp_rtp_jni.so
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.6/../../../../arm-linux-androideabi/bin/ld: ./obj/local/armeabi/objs/smp_rtp_jni/rtp_jni.o: in function JNI_OnLoad:jni/rtp_jni.cpp:24: error: undefined reference to 'registerRtpStream(_JNIEnv*)'
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.6/../../../../arm-linux-androideabi/bin/ld: ./obj/local/armeabi/objs/smp_rtp_jni/rtp_jni.o: in function JNI_OnLoad:jni/rtp_jni.cpp:24: error: undefined reference to 'registerAudioGroup(_JNIEnv*)'
+collect2: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_rtp_jni.so] Error 1
+02:14:41 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= rtp_jni.cpp
+jni/rtp_jni.cpp: In function 'jint JNI_OnLoad(JavaVM*, void*)':
+jni/rtp_jni.cpp:24:30: error: 'registerRtpStream' was not declared in this scope
+jni/rtp_jni.cpp:24:61: error: 'registerAudioGroup' was not declared in this scope
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/rtp_jni.o] Error 1
+11:16:27 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+jni/Android.mk:8: *** commands commence before first target.  Stop.
+11:16:28 **** Build of configuration Default for project tester ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: tester <= tester.cpp
+[armeabi] StaticLibrary  : libstdc++.a
+[armeabi] SharedLibrary  : libtester.so
+[armeabi] Install        : libtester.so => libs/armeabi/libtester.so
+11:18:25 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+jni/Android.mk:8: *** commands commence before first target.  Stop.
+11:22:26 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+jni/Android.mk:9: *** commands commence before first target.  Stop.
+11:23:15 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= rtp_jni.cpp
+[armeabi] Compile++ thumb: smp_rtp_jni <= AmrCodec.cpp
+jni/AmrCodec.cpp:17:24: fatal error: AudioCodec.h: No such file or directory
+compilation terminated.
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/AmrCodec.o] Error 1
+11:28:29 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= AmrCodec.cpp
+jni/AmrCodec.cpp:18:24: fatal error: gsmamr_dec.h: No such file or directory
+compilation terminated.
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/AmrCodec.o] Error 1
+11:29:06 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= AmrCodec.cpp
+In file included from jni/AmrCodec.cpp:18:0:
+jni/gsmamr_dec.h:64:30: fatal error: gsm_amr_typedefs.h: No such file or directory
+compilation terminated.
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/AmrCodec.o] Error 1
+11:32:03 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= AmrCodec.cpp
+In file included from jni/AmrCodec.cpp:18:0:
+jni/gsmamr_dec.h:64:30: fatal error: gsm_amr_typedefs.h: No such file or directory
+compilation terminated.
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/AmrCodec.o] Error 1
+11:32:24 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= AmrCodec.cpp
+In file included from jni/AmrCodec.cpp:18:0:
+jni/gsmamr_dec.h:64:30: fatal error: gsm_amr_typedefs.h: No such file or directory
+compilation terminated.
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/AmrCodec.o] Error 1
+11:32:45 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= AmrCodec.cpp
+In file included from jni/AmrCodec.cpp:18:0:
+jni/gsmamr_dec.h:65:32: fatal error: pvamrnbdecoder_api.h: No such file or directory
+compilation terminated.
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/AmrCodec.o] Error 1

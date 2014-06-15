@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="android.net.sip.SipErrorCode"/>
+<fullyQualifiedTypeName name="com.smp.sip.SimpleSessionDescription.Media"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="android.net.sip.SipManager"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="com.smp.sip.AudioSipManager"/>
+<fullyQualifiedTypeName name="android.net.sip.SipSession"/>
+<fullyQualifiedTypeName name="android.content.pm.PackageManager"/>
+<fullyQualifiedTypeName name="android.os.RemoteException"/>
+<fullyQualifiedTypeName name="com.smp.sip.SipAudioCall.Listener"/>
+<fullyQualifiedTypeName name="android.net.sip.SipProfile"/>
+<fullyQualifiedTypeName name="android.net.sip.SipAudioCall"/>
+<fullyQualifiedTypeName name="android.net.sip.SipException"/>
+<fullyQualifiedTypeName name="com.smp.sip.SipAudioCall"/>
+<fullyQualifiedTypeName name="android.net.rtp.AudioStream"/>
+<fullyQualifiedTypeName name="android.net.rtp.AudioCodec"/>
+</qualifiedTypeNameHistroy>

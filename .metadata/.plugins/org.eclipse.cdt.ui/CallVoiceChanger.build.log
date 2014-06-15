@@ -1,0 +1,11 @@
+11:32:45 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= AmrCodec.cpp
+In file included from jni/AmrCodec.cpp:18:0:
+jni/gsmamr_dec.h:65:32: fatal error: pvamrnbdecoder_api.h: No such file or directory
+compilation terminated.
+make: *** [obj/local/armeabi/objs/smp_rtp_jni/AmrCodec.o] Error 1
+
+11:32:45 Build Finished (took 110ms)
+
