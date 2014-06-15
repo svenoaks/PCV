@@ -224,3 +224,37 @@ In file included from jni/AmrCodec.cpp:18:0:
 jni/gsmamr_dec.h:65:32: fatal error: pvamrnbdecoder_api.h: No such file or directory
 compilation terminated.
 make: *** [obj/local/armeabi/objs/smp_rtp_jni/AmrCodec.o] Error 1
+12:26:46 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+make: *** No rule to make target `jni/rtp_jni.cpp', needed by `obj/local/armeabi/objs/smp_rtp_jni/rtp_jni.o'.  Stop.
+12:29:24 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= rtp_jni.cpp
+[armeabi] SharedLibrary  : libsmp_rtp_jni.so
+[armeabi] Install        : libsmp_rtp_jni.so => libs/armeabi/libsmp_rtp_jni.so
+14:08:37 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+Android NDK: WARNING: Unsupported source file extensions in jni/Android.mk for module smp_rtp_jni    
+Android NDK:   \    
+make: *** No rule to make target `jni/jrtplib-3.9.1/rtcpapppacket.cpp', needed by `obj/local/armeabi/objs/smp_rtp_jni/jrtplib-3.9.1/rtcpapppacket.o'.  Stop.
+14:08:38 **** Build of configuration Default for project tester ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
+[armeabi] Install        : libtester.so => libs/armeabi/libtester.so
+15:09:47 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Compile++ thumb: smp_rtp_jni <= rtpudpv4transmitter.cpp
+[armeabi] SharedLibrary  : libsmp_rtp_jni.so
+[armeabi] Install        : libsmp_rtp_jni.so => libs/armeabi/libsmp_rtp_jni.so
+[armeabi-v7a] Compile++ thumb: smp_rtp_jni <= rtpudpv4transmitter.cpp
+[armeabi-v7a] SharedLibrary  : libsmp_rtp_jni.so
+[armeabi-v7a] Install        : libsmp_rtp_jni.so => libs/armeabi-v7a/libsmp_rtp_jni.so
+15:12:38 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
+[armeabi] Install        : libsmp_rtp_jni.so => libs/armeabi/libsmp_rtp_jni.so
+[armeabi-v7a] Install        : libsmp_rtp_jni.so => libs/armeabi-v7a/libsmp_rtp_jni.so
