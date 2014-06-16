@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Steve/Code/jthread-1.3.1/src/pthread/jmutex.cpp
+jmutex.h
+/Users/Steve/Code/jthread-1.3.1/src/pthread/jmutex.h
+
+/Users/Steve/Code/jthread-1.3.1/src/pthread/jthread.cpp
+jthread.h
+/Users/Steve/Code/jthread-1.3.1/src/pthread/jthread.h
+sys/time.h
+-
+time.h
+-
+stdlib.h
+-
+
+jmutex.h
+jthreadconfig.h
+jthreadconfig.h
+process.h
+-
+winsock2.h
+-
+windows.h
+-
+pthread.h
+-
+
+jthread.h
+jthreadconfig.h
+jthreadconfig.h
+jmutex.h
+jmutex.h
+
+src/jthreadconfig.h
+

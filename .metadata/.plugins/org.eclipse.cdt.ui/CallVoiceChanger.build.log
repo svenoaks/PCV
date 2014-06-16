@@ -1,8 +1,7 @@
-15:12:38 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+22:16:08 **** Build of configuration Default for project CallVoiceChanger ****
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
 Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 12 in ./AndroidManifest.xml    
-[armeabi] Install        : libsmp_rtp_jni.so => libs/armeabi/libsmp_rtp_jni.so
-[armeabi-v7a] Install        : libsmp_rtp_jni.so => libs/armeabi-v7a/libsmp_rtp_jni.so
+make: *** No rule to make target `jni/jthread/pthread/jmutex.cpp', needed by `obj/local/armeabi/objs/smp_rtp_jni/jthread/pthread/jmutex.o'.  Stop.
 
-15:12:38 Build Finished (took 159ms)
+22:16:08 Build Finished (took 131ms)
 

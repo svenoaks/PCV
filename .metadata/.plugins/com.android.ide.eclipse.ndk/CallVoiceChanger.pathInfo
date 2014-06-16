@@ -1,14 +1,11 @@
-t,1402857502000
+t,1402884914000
 i,jni
 i,/Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.6/include
 i,/Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.6/libs/armeabi/include
 i,/Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.6/include/backward
-i,/Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.8/include
-i,/Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include
-i,/Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.8/include/backward
+i,/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include
 i,/Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.6/include
 i,/Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.6/include-fixed
-i,/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include
 d,__SIG_ATOMIC_MAX__,2147483647
 d,__INT_FAST32_MAX__,2147483647
 d,__THUMB_INTERWORK__,1
@@ -65,7 +62,6 @@ d,__FLT_MANT_DIG__,24
 d,__FLT_RADIX__,2
 d,__INTMAX_C(c),c ## LL
 d,__CHAR_UNSIGNED__,1
-d,__ARM_ARCH_7A__,1
 d,__UINT8_MAX__,255
 d,__INTMAX_TYPE__,long long int
 d,__FLT_DIG__,6
@@ -120,6 +116,7 @@ d,__PRAGMA_REDEFINE_EXTNAME,1
 d,__ARMEL__,1
 d,__UINT_FAST16_MAX__,4294967295U
 d,__FLT_MAX_EXP__,128
+d,__SOFTFP__,1
 d,__LDBL_EPSILON__,2.2204460492503131e-16L
 d,__DEC64_MIN__,1E-383DD
 d,__VFP_FP__,1
@@ -134,11 +131,9 @@ d,__WCHAR_MIN__,0U
 d,__CHAR32_TYPE__,unsigned int
 d,__ELF__,1
 d,__UINTMAX_MAX__,18446744073709551615ULL
-d,__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8,1
 d,__FLT_MIN_10_EXP__,(-37)
 d,__UINTPTR_MAX__,4294967295U
 d,__UINT64_MAX__,18446744073709551615ULL
-d,__ARM_FEATURE_DSP,1
 d,__WCHAR_MAX__,4294967295U
 d,__INT_FAST16_TYPE__,int
 d,__LDBL_HAS_DENORM__,1
@@ -149,10 +144,7 @@ d,__thumb__,1
 d,__INT_LEAST64_MAX__,9223372036854775807LL
 d,__DBL_MIN_EXP__,(-1021)
 d,__UINT_LEAST32_TYPE__,unsigned int
-d,__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4,1
 d,__SIZEOF_LONG_DOUBLE__,8
-d,__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1,1
-d,__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2,1
 d,__SIZE_MAX__,4294967295U
 d,__UINT_FAST32_MAX__,4294967295U
 d,__INT_FAST64_MAX__,9223372036854775807LL
@@ -178,6 +170,7 @@ d,__INT64_MAX__,9223372036854775807LL
 d,__INT_MAX__,2147483647
 d,__INT32_C(c),c
 d,__DEC64_EPSILON__,1E-15DD
+d,__ARM_ARCH_5TE__,1
 d,__ANDROID__,1
 d,__INT32_TYPE__,int
 d,__INT_LEAST32_MAX__,2147483647
@@ -213,7 +206,6 @@ d,__FLT_MAX__,3.4028234663852886e+38F
 d,__DBL_MANT_DIG__,53
 d,__UINT_FAST16_TYPE__,unsigned int
 d,__linux,1
-d,__thumb2__,1
 d,__UINT_LEAST64_TYPE__,long long unsigned int
 d,__DEC128_MIN__,1E-6143DL
 d,__GNUC_GNU_INLINE__,1

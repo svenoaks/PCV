@@ -44,7 +44,7 @@ LOCAL_SRC_FILES :=  \
 	jrtplib-3.9.1/rtpexternaltransmitter.cpp
 	
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/jrtplib-3.9.1/
-LOCAL_C_INCLUDES := $(LOCAL_PATH)
+LOCAL_C_INCLUDES += $(LOCAL_PATH)
 
 
 include $(BUILD_SHARED_LIBRARY)

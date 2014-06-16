@@ -1,7 +1,9 @@
-./obj/local/armeabi-v7a/objs/smp_rtp_jni/jrtplib-3.9.1/rtpudpv4transmitter.o: \
-  jni/jrtplib-3.9.1/rtpudpv4transmitter.cpp \
-  jni/jrtplib-3.9.1/rtpudpv4transmitter.h jni/jrtplib-3.9.1/rtpconfig.h \
-  jni/jrtplib-3.9.1/rtptransmitter.h jni/jrtplib-3.9.1/rtptypes.h \
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/obj/local/armeabi-v7a/objs/smp_rtp_jni/jrtplib-3.9.1/rtpudpv4transmitter.o: \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpudpv4transmitter.cpp \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpudpv4transmitter.h \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpconfig.h \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtptransmitter.h \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtptypes.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/stdint.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/sys/_types.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/machine/_types.h \
@@ -17,10 +19,10 @@
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/linux/types.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
-  jni/jrtplib-3.9.1/rtpmemoryobject.h \
-  jni/jrtplib-3.9.1/rtpmemorymanager.h \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpmemoryobject.h \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpmemorymanager.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.8/include/new \
-  jni/jrtplib-3.9.1/rtpipv4destination.h \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpipv4destination.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/netinet/in.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/endian.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/sys/endian.h \
@@ -42,13 +44,16 @@
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/sys/socket.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/string.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/malloc.h \
-  jni/jrtplib-3.9.1/rtphashtable.h jni/jrtplib-3.9.1/rtperrors.h \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtphashtable.h \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtperrors.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.8/include/string \
-  jni/jrtplib-3.9.1/rtpkeyhashtable.h \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpkeyhashtable.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.8/include/list \
-  jni/jrtplib-3.9.1/rtprawpacket.h jni/jrtplib-3.9.1/rtptimeutilities.h \
-  jni/jrtplib-3.9.1/rtpaddress.h jni/jrtplib-3.9.1/rtpipv4address.h \
-  jni/jrtplib-3.9.1/rtpdefines.h \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtprawpacket.h \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtptimeutilities.h \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpaddress.h \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpipv4address.h \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpdefines.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/sys/ioctl.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/linux/ioctl.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/asm/ioctl.h \
@@ -65,16 +70,16 @@
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/sys/sysconf.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/linux/capability.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/pathconf.h \
-  jni/jrtplib-3.9.1/rtpdebug.h \
+  /Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpdebug.h \
   /Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.8/include/iostream
 
-jni/jrtplib-3.9.1/rtpudpv4transmitter.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpudpv4transmitter.h:
 
-jni/jrtplib-3.9.1/rtpconfig.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpconfig.h:
 
-jni/jrtplib-3.9.1/rtptransmitter.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtptransmitter.h:
 
-jni/jrtplib-3.9.1/rtptypes.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtptypes.h:
 
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/stdint.h:
 
@@ -106,13 +111,13 @@ jni/jrtplib-3.9.1/rtptypes.h:
 
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
 
-jni/jrtplib-3.9.1/rtpmemoryobject.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpmemoryobject.h:
 
-jni/jrtplib-3.9.1/rtpmemorymanager.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpmemorymanager.h:
 
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.8/include/new:
 
-jni/jrtplib-3.9.1/rtpipv4destination.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpipv4destination.h:
 
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/netinet/in.h:
 
@@ -156,25 +161,25 @@ jni/jrtplib-3.9.1/rtpipv4destination.h:
 
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/malloc.h:
 
-jni/jrtplib-3.9.1/rtphashtable.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtphashtable.h:
 
-jni/jrtplib-3.9.1/rtperrors.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtperrors.h:
 
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.8/include/string:
 
-jni/jrtplib-3.9.1/rtpkeyhashtable.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpkeyhashtable.h:
 
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.8/include/list:
 
-jni/jrtplib-3.9.1/rtprawpacket.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtprawpacket.h:
 
-jni/jrtplib-3.9.1/rtptimeutilities.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtptimeutilities.h:
 
-jni/jrtplib-3.9.1/rtpaddress.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpaddress.h:
 
-jni/jrtplib-3.9.1/rtpipv4address.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpipv4address.h:
 
-jni/jrtplib-3.9.1/rtpdefines.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpdefines.h:
 
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/sys/ioctl.h:
 
@@ -208,6 +213,6 @@ jni/jrtplib-3.9.1/rtpdefines.h:
 
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include/pathconf.h:
 
-jni/jrtplib-3.9.1/rtpdebug.h:
+/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/jrtplib-3.9.1/rtpdebug.h:
 
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.8/include/iostream:
