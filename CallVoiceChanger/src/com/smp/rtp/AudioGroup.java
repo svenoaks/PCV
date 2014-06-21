@@ -99,7 +99,7 @@ public class AudioGroup {
 
     private int mNative;
     static {
-        System.loadLibrary("rtp_jni");
+        System.loadLibrary("smp_sip_jni");
     }
 
     /**

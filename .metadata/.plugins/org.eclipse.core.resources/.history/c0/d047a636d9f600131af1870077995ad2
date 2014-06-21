@@ -1,0 +1,3 @@
+APP_CPPFLAGS := -std=c++11
+NDK_TOOLCHAIN_VERSION := clang
+APP_STL := stlport_shared

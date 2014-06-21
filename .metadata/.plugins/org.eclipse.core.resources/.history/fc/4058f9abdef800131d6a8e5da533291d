@@ -1,0 +1,32 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libre
+LOCAL_SRC_FILES := re/libre.a
+LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/re/include
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libssl
+LOCAL_SRC_FILES := openssl/libssl.a
+LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/openssl/include/openssl
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libcrypto
+LOCAL_SRC_FILES := openssl/libcrypto.a
+LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/openssl/include/openssl
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE    := smp_sip_jni
+LOCAL_SRC_FILES :=  \
+	sip_jni.c \
+	sip_ua.c
+    
+LOCAL_C_INCLUDES += $(LOCAL_PATH)
+LOCAL_STATIC_LIBRARIES := libre
+LOCAL_LDLIBS := -llog
+include $(BUILD_SHARED_LIBRARY)
+
+

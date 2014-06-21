@@ -36,6 +36,7 @@ import android.widget.ToggleButton;
 
 import java.text.ParseException;
 
+import com.smp.rtp.JniTest;
 import com.smp.sip.SipAudioCall;
 import com.smp.sip.SipAudioManager;
 
@@ -55,7 +56,9 @@ public class MainActivity extends Activity implements View.OnTouchListener {
     private static final int SET_AUTH_INFO = 2;
     private static final int UPDATE_SETTINGS_DIALOG = 3;
     private static final int HANG_UP = 4;
-
+    static {
+        System.loadLibrary("smp_sip_jni");
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -131,7 +134,8 @@ public class MainActivity extends Activity implements View.OnTouchListener {
 
     }
     public void initiateCall() {
-	
+    	
+    	
         try {
             SipAudioCall.Listener listener = new SipAudioCall.Listener() {
                 @Override
@@ -167,11 +171,23 @@ public class MainActivity extends Activity implements View.OnTouchListener {
                 call.close();
             }
         }
+        
     }
 
     public void onClick(View view)
     {
-	initiateCall();
+    	new Thread(new Runnable() {
+
+			@Override
+			public void run()
+			{
+				JniTest test = new JniTest();
+		    	test.test();	
+			}
+    		
+    	}).start();
+    	
+    	//initiateCall();
     }
     /**
      * Updates the status box at the top of the UI with a messege of your choice.

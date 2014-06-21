@@ -56,7 +56,7 @@ public class RtpStream {
 
     private int mSocket = -1;
     static {
-        System.loadLibrary("rtp_jni");
+        //System.loadLibrary("rtp_jni");
     }
 
     /**

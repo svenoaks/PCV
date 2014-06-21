@@ -1,0 +1,27 @@
+#include <jni.h>
+#include <android/log.h>
+#include <thread>
+#include <vector>
+
+#include "re.h"
+#include "sip_ua.h"
+
+#define LOGV(...)   __android_log_print((int)ANDROID_LOG_INFO, "SMP_RTP_JNI", __VA_ARGS__)
+#define DLL_PUBLIC __attribute__ ((visibility ("default")))
+
+using namespace std;
+#ifdef __cplusplus
+
+void fromThread()
+{
+	LOGV("hellllooooo");
+}
+extern "C" DLL_PUBLIC void Java_com_smp_rtp_JniTest_testJNI(JNIEnv *env, jobject thiz)
+{
+	make_call();
+}
+#endif
+
+
+
+

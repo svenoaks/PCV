@@ -1,0 +1,18 @@
+package com.smp.rtp;
+
+public class JniTest
+{
+	static
+	{
+		System.loadLibrary("rtp_jni");
+	}
+	private native void testJNI();
+	
+	public void test()
+	{
+		
+		
+	}
+	
+	
+}

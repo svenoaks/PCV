@@ -1,0 +1,3 @@
+#ifndef SIP_UA_H
+	int make_call();
+#endif

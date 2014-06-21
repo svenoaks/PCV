@@ -22,7 +22,7 @@
 					<folderInfo id="com.android.toolchain.gcc.1110072723.2102191277" name="/" resourcePath="">
 						<toolChain id="com.android.toolchain.gcc.1625871936" name="com.android.toolchain.gcc" superClass="com.android.toolchain.gcc">
 							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.android.targetPlatform.2074802011" isAbstract="false" superClass="com.android.targetPlatform"/>
-							<builder id="com.android.builder.630292150" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Android Builder" superClass="com.android.builder">
+							<builder arguments="NDK_DEBUG=1" command="ndk-build" id="com.android.builder.630292150" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Android Builder" superClass="com.android.builder">
 								<outputEntries>
 									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="obj"/>
 									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="libs"/>
@@ -30,9 +30,7 @@
 							</builder>
 							<tool id="com.android.gcc.compiler.1318759041" name="Android GCC Compiler" superClass="com.android.gcc.compiler">
 								<option id="com.android.gcc.option.includePath.699385824" superClass="com.android.gcc.option.includePath" valueType="includePath">
-									<listOptionValue builtIn="false" value="/Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/llvm-libc++/libcxx/include"/>
-									<listOptionValue builtIn="false" value="/Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a"/>
-									<listOptionValue builtIn="false" value="/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-19/arch-arm/usr/include"/>
+									<listOptionValue builtIn="false" value="/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/re/include"/>
 								</option>
 								<inputType id="com.android.gcc.inputType.1241009748" superClass="com.android.gcc.inputType"/>
 							</tool>
@@ -56,5 +54,9 @@
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.android.AndroidPerProjectProfile"/>
 		</scannerConfigBuildInfo>
 	</storageModule>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/CallVoiceChanger"/>
+		</configuration>
+	</storageModule>
 </cproject>

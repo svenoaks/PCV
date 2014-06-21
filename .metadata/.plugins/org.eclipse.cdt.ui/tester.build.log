@@ -1,7 +1,8 @@
-22:16:08 **** Build of configuration Default for project tester ****
-/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build all 
+11:27:07 **** Clean-only build of configuration Default for project tester ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build clean 
 Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 8 in ./AndroidManifest.xml    
-[armeabi] Install        : libtester.so => libs/armeabi/libtester.so
+[armeabi] Clean          : stdc++ [armeabi]
+[armeabi] Clean          : tester [armeabi]
 
-22:16:08 Build Finished (took 72ms)
+11:27:07 Build Finished (took 113ms)
 
