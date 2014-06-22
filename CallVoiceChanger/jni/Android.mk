@@ -23,7 +23,8 @@ include $(CLEAR_VARS)
 LOCAL_MODULE    := smp_sip_jni
 LOCAL_SRC_FILES :=  \
 	sip_jni.cpp \
-	sip_ua.c
+	sip_ua.c \
+	and_log.c
     
 LOCAL_C_INCLUDES += $(LOCAL_PATH)
 LOCAL_STATIC_LIBRARIES := libre

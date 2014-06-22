@@ -1,6 +1,0 @@
-package com.smp.sip;
-
-public class SipManager extends AudioSipManager
-{
-
-}

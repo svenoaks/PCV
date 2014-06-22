@@ -29,9 +29,7 @@
 								</outputEntries>
 							</builder>
 							<tool id="com.android.gcc.compiler.1318759041" name="Android GCC Compiler" superClass="com.android.gcc.compiler">
-								<option id="com.android.gcc.option.includePath.699385824" superClass="com.android.gcc.option.includePath" valueType="includePath">
-									<listOptionValue builtIn="false" value="/Users/Steve/Code/Git/PrankCallVoiceChanger/CallVoiceChanger/jni/re/include"/>
-								</option>
+								<option id="com.android.gcc.option.includePath.699385824" superClass="com.android.gcc.option.includePath"/>
 								<inputType id="com.android.gcc.inputType.1241009748" superClass="com.android.gcc.inputType"/>
 							</tool>
 						</toolChain>
@@ -59,4 +57,5 @@
 			<resource resourceType="PROJECT" workspacePath="/CallVoiceChanger"/>
 		</configuration>
 	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>

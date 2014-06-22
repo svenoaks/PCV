@@ -1,0 +1,10 @@
+#include <android/log.h>
+#include "and_log.h"
+
+#define LOGV(tag, ...)   __android_log_print((int)ANDROID_LOG_INFO, #tag, __VA_ARGS__)
+#define LOGE(tag, ...)   __android_log_print((int)ANDROID_LOG_ERROR, #tag, __VA_ARGS__)
+
+static int andr_log(android_LogPriority pri, const char  *tag, const char *msg)
+{
+
+}

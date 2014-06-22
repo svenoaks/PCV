@@ -4404,3 +4404,1633 @@ jni/sip_ua.c:239:3: warning: unknown conversion type character 'r' in format [-W
 jni/sip_ua.c:239:3: warning: too many arguments for format [-Wformat-extra-args]
 [armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
 [armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:25:10 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+jni/sip_ua.c: In function 'update_media':
+jni/sip_ua.c:71:2: warning: unknown conversion type character 'J' in format [-Wformat=]
+  LOGV("SDP peer address: %J\n", sdp_media_raddr(sdp_media));
+  ^
+jni/sip_ua.c:71:2: warning: too many arguments for format [-Wformat-extra-args]
+jni/sip_ua.c: In function 'progress_handler':
+jni/sip_ua.c:141:2: warning: unknown conversion type character 'r' in format [-Wformat=]
+  LOGV("session progress: %u %r\n", msg->scode, &msg->reason);
+  ^
+jni/sip_ua.c:141:2: warning: too many arguments for format [-Wformat-extra-args]
+jni/sip_ua.c: In function 'close_handler':
+jni/sip_ua.c:163:3: warning: unknown conversion type character 'r' in format [-Wformat=]
+   LOGV("session closed: %u %r\n", msg->scode, &msg->reason);
+   ^
+jni/sip_ua.c:163:3: warning: too many arguments for format [-Wformat-extra-args]
+jni/sip_ua.c: In function 'connect_handler':
+jni/sip_ua.c:225:3: warning: unknown conversion type character 'r' in format [-Wformat=]
+   LOGV("accepting incoming call from <%r>\n",
+   ^
+jni/sip_ua.c:225:3: warning: too many arguments for format [-Wformat-extra-args]
+jni/sip_ua.c: In function 'register_handler':
+jni/sip_ua.c:239:3: warning: unknown conversion type character 'r' in format [-Wformat=]
+   LOGV("register reply: %u %r\n", msg->scode, &msg->reason);
+   ^
+jni/sip_ua.c:239:3: warning: too many arguments for format [-Wformat-extra-args]
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+jni/sip_ua.c: In function 'update_media':
+jni/sip_ua.c:71:2: warning: unknown conversion type character 'J' in format [-Wformat=]
+  LOGV("SDP peer address: %J\n", sdp_media_raddr(sdp_media));
+  ^
+jni/sip_ua.c:71:2: warning: too many arguments for format [-Wformat-extra-args]
+jni/sip_ua.c: In function 'progress_handler':
+jni/sip_ua.c:141:2: warning: unknown conversion type character 'r' in format [-Wformat=]
+  LOGV("session progress: %u %r\n", msg->scode, &msg->reason);
+  ^
+jni/sip_ua.c:141:2: warning: too many arguments for format [-Wformat-extra-args]
+jni/sip_ua.c: In function 'close_handler':
+jni/sip_ua.c:163:3: warning: unknown conversion type character 'r' in format [-Wformat=]
+   LOGV("session closed: %u %r\n", msg->scode, &msg->reason);
+   ^
+jni/sip_ua.c:163:3: warning: too many arguments for format [-Wformat-extra-args]
+jni/sip_ua.c: In function 'connect_handler':
+jni/sip_ua.c:225:3: warning: unknown conversion type character 'r' in format [-Wformat=]
+   LOGV("accepting incoming call from <%r>\n",
+   ^
+jni/sip_ua.c:225:3: warning: too many arguments for format [-Wformat-extra-args]
+jni/sip_ua.c: In function 'register_handler':
+jni/sip_ua.c:239:3: warning: unknown conversion type character 'r' in format [-Wformat=]
+   LOGV("register reply: %u %r\n", msg->scode, &msg->reason);
+   ^
+jni/sip_ua.c:239:3: warning: too many arguments for format [-Wformat-extra-args]
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:27:34 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+11:31:16 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alogv':
+jni/and_log.c:10:1: error: expected '{' at end of input
+ int re_alogv()
+ ^
+make: *** [obj/local/armeabi/objs-debug/smp_sip_jni/and_log.o] Error 1
+12:32:16 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+12:32:36 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c:4:19: error: unknown type name 'android_LogPriority'
+ int re_alog_write(android_LogPriority pri, const char *tag, const char *fmt, ...)
+                   ^
+make: *** [obj/local/armeabi/objs-debug/smp_sip_jni/and_log.o] Error 1
+12:33:16 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+12:33:44 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+12:35:11 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+12:35:25 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+12:38:34 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+12:38:34 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+12:40:04 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+12:40:04 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+12:49:00 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+12:49:11 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(30*sizeof(char));
+                  ^
+jni/and_log.c:15:2: warning: passing argument 3 of '__android_log_write' makes pointer from integer without a cast [enabled by default]
+  return err ? err : __android_log_write((int) pri, tag, *strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'char'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/and_log.c:12: error: undefined reference to 're_sprintf'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+12:50:01 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(30*sizeof(char));
+                  ^
+jni/and_log.c:15:2: warning: passing argument 3 of '__android_log_write' makes pointer from integer without a cast [enabled by default]
+  return err ? err : __android_log_write((int) pri, tag, *strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'char'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/and_log.c:12: error: undefined reference to 're_snrintf'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+12:50:53 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(30*sizeof(char));
+                  ^
+jni/and_log.c:15:2: warning: passing argument 3 of '__android_log_write' makes pointer from integer without a cast [enabled by default]
+  return err ? err : __android_log_write((int) pri, tag, *strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'char'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/and_log.c:12: error: undefined reference to 're_snrintf'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+12:51:43 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+12:53:31 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(40 * sizeof(char));
+                  ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(40 * sizeof(char));
+                  ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+12:54:08 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+12:54:20 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(40 * sizeof(char));
+                  ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(40 * sizeof(char));
+                  ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+12:54:47 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+12:56:14 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:07:58 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:07:59 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:11:33 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+13:11:42 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(40 * sizeof(char));
+                  ^
+jni/and_log.c:13:2: warning: passing argument 3 of 're_snprintf' discards 'volatile' qualifier from pointer target type [enabled by default]
+  err = re_snprintf(strp, 40, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:92:5: note: expected 'const char *' but argument is of type 'const volatile char *'
+ int re_snprintf(char *str, size_t size, const char *fmt, ...);
+     ^
+jni/and_log.c:16:2: warning: passing argument 2 of '__android_log_write' discards 'volatile' qualifier from pointer target type [enabled by default]
+  return err ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'const volatile char *'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(40 * sizeof(char));
+                  ^
+jni/and_log.c:13:2: warning: passing argument 3 of 're_snprintf' discards 'volatile' qualifier from pointer target type [enabled by default]
+  err = re_snprintf(strp, 40, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:92:5: note: expected 'const char *' but argument is of type 'const volatile char *'
+ int re_snprintf(char *str, size_t size, const char *fmt, ...);
+     ^
+jni/and_log.c:16:2: warning: passing argument 2 of '__android_log_write' discards 'volatile' qualifier from pointer target type [enabled by default]
+  return err ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'const volatile char *'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:11:43 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:12:23 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+13:12:38 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(40 * sizeof(char));
+                  ^
+jni/and_log.c:13:2: warning: passing argument 3 of 're_snprintf' discards 'volatile' qualifier from pointer target type [enabled by default]
+  err = re_snprintf(strp, 40, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:92:5: note: expected 'const char *' but argument is of type 'const volatile char *'
+ int re_snprintf(char *str, size_t size, const char *fmt, ...);
+     ^
+jni/and_log.c:16:2: warning: passing argument 2 of '__android_log_write' discards 'volatile' qualifier from pointer target type [enabled by default]
+  return err ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'const volatile char *'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(40 * sizeof(char));
+                  ^
+jni/and_log.c:13:2: warning: passing argument 3 of 're_snprintf' discards 'volatile' qualifier from pointer target type [enabled by default]
+  err = re_snprintf(strp, 40, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:92:5: note: expected 'const char *' but argument is of type 'const volatile char *'
+ int re_snprintf(char *str, size_t size, const char *fmt, ...);
+     ^
+jni/and_log.c:16:2: warning: passing argument 2 of '__android_log_write' discards 'volatile' qualifier from pointer target type [enabled by default]
+  return err ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'const volatile char *'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:12:39 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:13:18 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+13:13:26 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(40 * sizeof(char));
+                  ^
+jni/and_log.c:13:2: warning: passing argument 1 of 're_snprintf' discards 'volatile' qualifier from pointer target type [enabled by default]
+  err = re_snprintf(strp, 40, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:92:5: note: expected 'char *' but argument is of type 'volatile char *'
+ int re_snprintf(char *str, size_t size, const char *fmt, ...);
+     ^
+jni/and_log.c:13:2: warning: passing argument 3 of 're_snprintf' discards 'volatile' qualifier from pointer target type [enabled by default]
+  err = re_snprintf(strp, 40, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:92:5: note: expected 'const char *' but argument is of type 'const volatile char *'
+ int re_snprintf(char *str, size_t size, const char *fmt, ...);
+     ^
+jni/and_log.c:16:2: warning: passing argument 2 of '__android_log_write' discards 'volatile' qualifier from pointer target type [enabled by default]
+  return err ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'const volatile char *'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+jni/and_log.c:16:2: warning: passing argument 3 of '__android_log_write' discards 'volatile' qualifier from pointer target type [enabled by default]
+  return err ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'volatile char *'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(40 * sizeof(char));
+                  ^
+jni/and_log.c:13:2: warning: passing argument 1 of 're_snprintf' discards 'volatile' qualifier from pointer target type [enabled by default]
+  err = re_snprintf(strp, 40, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:92:5: note: expected 'char *' but argument is of type 'volatile char *'
+ int re_snprintf(char *str, size_t size, const char *fmt, ...);
+     ^
+jni/and_log.c:13:2: warning: passing argument 3 of 're_snprintf' discards 'volatile' qualifier from pointer target type [enabled by default]
+  err = re_snprintf(strp, 40, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:92:5: note: expected 'const char *' but argument is of type 'const volatile char *'
+ int re_snprintf(char *str, size_t size, const char *fmt, ...);
+     ^
+jni/and_log.c:16:2: warning: passing argument 2 of '__android_log_write' discards 'volatile' qualifier from pointer target type [enabled by default]
+  return err ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'const volatile char *'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+jni/and_log.c:16:2: warning: passing argument 3 of '__android_log_write' discards 'volatile' qualifier from pointer target type [enabled by default]
+  return err ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'volatile char *'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:13:27 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:16:02 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+13:17:10 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+13:17:19 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(40 * sizeof(char));
+                  ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(40 * sizeof(char));
+                  ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:18:19 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:18:40 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:19:56 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(40 * sizeof(char));
+                  ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:10:18: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  strp = (char *) malloc(40 * sizeof(char));
+                  ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:21:33 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:22:26 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:23:45 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:26:21 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+13:26:28 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:15: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = malloc( sizeof(char) * ( 40 + 1 ) );
+               ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:15: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = malloc( sizeof(char) * ( 40 + 1 ) );
+               ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:28:48 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:15: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = malloc( sizeof(char) * ( 40 + 1 ) );
+               ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:15: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = malloc( sizeof(char) * ( 40 + 1 ) );
+               ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:30:38 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 40 + 1 ) );
+                       ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 40 + 1 ) );
+                       ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:32:29 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                       ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                       ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:33:48 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                       ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                       ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:38:56 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+13:39:08 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                       ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                       ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:39:08 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:40:30 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+13:40:39 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                       ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                       ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:44:40 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+13:44:51 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                       ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                       ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:44:52 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:47:55 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                       ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                       ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:51:25 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                       ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:23: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char *strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                       ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+13:57:01 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+14:01:29 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:24: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                        ^
+jni/and_log.c:9:16: warning: initialization from incompatible pointer type [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                ^
+jni/and_log.c:12:2: warning: passing argument 1 of 're_vsnprintf' from incompatible pointer type [enabled by default]
+  err = re_vsnprintf(strp, 200, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:86:5: note: expected 'char *' but argument is of type 'char **'
+ int re_vsnprintf(char *str, size_t size, const char *fmt, va_list ap);
+     ^
+jni/and_log.c:15:2: warning: passing argument 3 of '__android_log_write' from incompatible pointer type [enabled by default]
+  return err < 0 ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'char **'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:24: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                        ^
+jni/and_log.c:9:16: warning: initialization from incompatible pointer type [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                ^
+jni/and_log.c:12:2: warning: passing argument 1 of 're_vsnprintf' from incompatible pointer type [enabled by default]
+  err = re_vsnprintf(strp, 200, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:86:5: note: expected 'char *' but argument is of type 'char **'
+ int re_vsnprintf(char *str, size_t size, const char *fmt, va_list ap);
+     ^
+jni/and_log.c:15:2: warning: passing argument 3 of '__android_log_write' from incompatible pointer type [enabled by default]
+  return err < 0 ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'char **'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+14:02:36 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+14:02:43 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+14:02:59 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:24: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                        ^
+jni/and_log.c:9:16: warning: initialization from incompatible pointer type [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                ^
+jni/and_log.c:12:2: warning: passing argument 1 of 're_vsnprintf' from incompatible pointer type [enabled by default]
+  err = re_vsnprintf(strp, 200, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:86:5: note: expected 'char *' but argument is of type 'char **'
+ int re_vsnprintf(char *str, size_t size, const char *fmt, va_list ap);
+     ^
+jni/and_log.c:15:2: warning: passing argument 3 of '__android_log_write' from incompatible pointer type [enabled by default]
+  return err < 0 ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'char **'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write':
+jni/and_log.c:9:24: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                        ^
+jni/and_log.c:9:16: warning: initialization from incompatible pointer type [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                ^
+jni/and_log.c:12:2: warning: passing argument 1 of 're_vsnprintf' from incompatible pointer type [enabled by default]
+  err = re_vsnprintf(strp, 200, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:86:5: note: expected 'char *' but argument is of type 'char **'
+ int re_vsnprintf(char *str, size_t size, const char *fmt, va_list ap);
+     ^
+jni/and_log.c:15:2: warning: passing argument 3 of '__android_log_write' from incompatible pointer type [enabled by default]
+  return err < 0 ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'char **'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+14:05:25 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c:2:8: error: expected identifier or '(' before string constant
+ extern "C"
+        ^
+make: *** [obj/local/armeabi/objs-debug/smp_sip_jni/and_log.o] Error 1
+14:20:24 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write_sta':
+jni/and_log.c:10:24: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                        ^
+jni/and_log.c:10:16: warning: initialization from incompatible pointer type [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                ^
+jni/and_log.c:13:2: warning: passing argument 1 of 're_vsnprintf' from incompatible pointer type [enabled by default]
+  err = re_vsnprintf(strp, 200, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:86:5: note: expected 'char *' but argument is of type 'char **'
+ int re_vsnprintf(char *str, size_t size, const char *fmt, va_list ap);
+     ^
+jni/and_log.c:16:2: warning: passing argument 3 of '__android_log_write' from incompatible pointer type [enabled by default]
+  return err < 0 ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'char **'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write_sta':
+jni/and_log.c:10:24: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                        ^
+jni/and_log.c:10:16: warning: initialization from incompatible pointer type [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                ^
+jni/and_log.c:13:2: warning: passing argument 1 of 're_vsnprintf' from incompatible pointer type [enabled by default]
+  err = re_vsnprintf(strp, 200, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:86:5: note: expected 'char *' but argument is of type 'char **'
+ int re_vsnprintf(char *str, size_t size, const char *fmt, va_list ap);
+     ^
+jni/and_log.c:16:2: warning: passing argument 3 of '__android_log_write' from incompatible pointer type [enabled by default]
+  return err < 0 ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'char **'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+14:24:13 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+14:24:22 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+In file included from jni/sip_ua.c:24:0:
+jni/sip_ua.c: In function 'update_media':
+jni/and_log.h:5:96: error: expected expression before ')' token
+ #define  RE_LOGV(fmt, ...)  re_alog_write((int) ANDROID_LOG_VERBOSE, ALOG_TAG, fmt, __VA_ARGS__)
+                                                                                                ^
+jni/sip_ua.c:76:3: note: in expansion of macro 'RE_LOGV'
+   RE_LOGV("no common media format found\n");
+   ^
+jni/sip_ua.c: In function 'offer_handler':
+jni/and_log.h:5:96: error: expected expression before ')' token
+ #define  RE_LOGV(fmt, ...)  re_alog_write((int) ANDROID_LOG_VERBOSE, ALOG_TAG, fmt, __VA_ARGS__)
+                                                                                                ^
+jni/sip_ua.c:105:3: note: in expansion of macro 'RE_LOGV'
+   RE_LOGV("SDP offer received\n");
+   ^
+jni/and_log.h:5:96: error: expected expression before ')' token
+ #define  RE_LOGV(fmt, ...)  re_alog_write((int) ANDROID_LOG_VERBOSE, ALOG_TAG, fmt, __VA_ARGS__)
+                                                                                                ^
+jni/sip_ua.c:109:3: note: in expansion of macro 'RE_LOGV'
+   RE_LOGV("sending SDP offer\n");
+   ^
+jni/sip_ua.c: In function 'answer_handler':
+jni/and_log.h:5:96: error: expected expression before ')' token
+ #define  RE_LOGV(fmt, ...)  re_alog_write((int) ANDROID_LOG_VERBOSE, ALOG_TAG, fmt, __VA_ARGS__)
+                                                                                                ^
+jni/sip_ua.c:122:2: note: in expansion of macro 'RE_LOGV'
+  RE_LOGV("SDP answer received\n");
+  ^
+jni/sip_ua.c: In function 'establish_handler':
+jni/and_log.h:5:96: error: expected expression before ')' token
+ #define  RE_LOGV(fmt, ...)  re_alog_write((int) ANDROID_LOG_VERBOSE, ALOG_TAG, fmt, __VA_ARGS__)
+                                                                                                ^
+jni/sip_ua.c:152:2: note: in expansion of macro 'RE_LOGV'
+  RE_LOGV("session established\n");
+  ^
+make: *** [obj/local/armeabi/objs-debug/smp_sip_jni/sip_ua.o] Error 1
+14:25:00 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+In file included from jni/sip_ua.c:24:0:
+jni/sip_ua.c: In function 'update_media':
+jni/and_log.h:5:92: error: expected expression before ')' token
+ #define  RE_LOGV(f, ...)  re_alog_write((int) ANDROID_LOG_VERBOSE, ALOG_TAG, f, __VA_ARGS__)
+                                                                                            ^
+jni/sip_ua.c:76:3: note: in expansion of macro 'RE_LOGV'
+   RE_LOGV("no common media format found\n");
+   ^
+jni/sip_ua.c: In function 'offer_handler':
+jni/and_log.h:5:92: error: expected expression before ')' token
+ #define  RE_LOGV(f, ...)  re_alog_write((int) ANDROID_LOG_VERBOSE, ALOG_TAG, f, __VA_ARGS__)
+                                                                                            ^
+jni/sip_ua.c:105:3: note: in expansion of macro 'RE_LOGV'
+   RE_LOGV("SDP offer received\n");
+   ^
+jni/and_log.h:5:92: error: expected expression before ')' token
+ #define  RE_LOGV(f, ...)  re_alog_write((int) ANDROID_LOG_VERBOSE, ALOG_TAG, f, __VA_ARGS__)
+                                                                                            ^
+jni/sip_ua.c:109:3: note: in expansion of macro 'RE_LOGV'
+   RE_LOGV("sending SDP offer\n");
+   ^
+jni/sip_ua.c: In function 'answer_handler':
+jni/and_log.h:5:92: error: expected expression before ')' token
+ #define  RE_LOGV(f, ...)  re_alog_write((int) ANDROID_LOG_VERBOSE, ALOG_TAG, f, __VA_ARGS__)
+                                                                                            ^
+jni/sip_ua.c:122:2: note: in expansion of macro 'RE_LOGV'
+  RE_LOGV("SDP answer received\n");
+  ^
+jni/sip_ua.c: In function 'establish_handler':
+jni/and_log.h:5:92: error: expected expression before ')' token
+ #define  RE_LOGV(f, ...)  re_alog_write((int) ANDROID_LOG_VERBOSE, ALOG_TAG, f, __VA_ARGS__)
+                                                                                            ^
+jni/sip_ua.c:152:2: note: in expansion of macro 'RE_LOGV'
+  RE_LOGV("session established\n");
+  ^
+make: *** [obj/local/armeabi/objs-debug/smp_sip_jni/sip_ua.o] Error 1
+14:25:28 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write_sta':
+jni/and_log.c:10:24: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                        ^
+jni/and_log.c:10:16: warning: initialization from incompatible pointer type [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                ^
+jni/and_log.c:13:2: warning: passing argument 1 of 're_vsnprintf' from incompatible pointer type [enabled by default]
+  err = re_vsnprintf(strp, 200, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:86:5: note: expected 'char *' but argument is of type 'char **'
+ int re_vsnprintf(char *str, size_t size, const char *fmt, va_list ap);
+     ^
+jni/and_log.c:16:2: warning: passing argument 3 of '__android_log_write' from incompatible pointer type [enabled by default]
+  return err < 0 ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'char **'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write_sta':
+jni/and_log.c:10:24: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                        ^
+jni/and_log.c:10:16: warning: initialization from incompatible pointer type [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                ^
+jni/and_log.c:13:2: warning: passing argument 1 of 're_vsnprintf' from incompatible pointer type [enabled by default]
+  err = re_vsnprintf(strp, 200, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:86:5: note: expected 'char *' but argument is of type 'char **'
+ int re_vsnprintf(char *str, size_t size, const char *fmt, va_list ap);
+     ^
+jni/and_log.c:16:2: warning: passing argument 3 of '__android_log_write' from incompatible pointer type [enabled by default]
+  return err < 0 ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'char **'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+14:29:20 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write_sta':
+jni/and_log.c:10:24: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                        ^
+jni/and_log.c:10:16: warning: initialization from incompatible pointer type [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                ^
+jni/and_log.c:13:2: warning: passing argument 1 of 're_vsnprintf' from incompatible pointer type [enabled by default]
+  err = re_vsnprintf(strp, 200, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:86:5: note: expected 'char *' but argument is of type 'char **'
+ int re_vsnprintf(char *str, size_t size, const char *fmt, va_list ap);
+     ^
+jni/and_log.c:16:2: warning: passing argument 3 of '__android_log_write' from incompatible pointer type [enabled by default]
+  return err < 0 ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'char **'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write_sta':
+jni/and_log.c:10:24: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                        ^
+jni/and_log.c:10:16: warning: initialization from incompatible pointer type [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                ^
+jni/and_log.c:13:2: warning: passing argument 1 of 're_vsnprintf' from incompatible pointer type [enabled by default]
+  err = re_vsnprintf(strp, 200, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:86:5: note: expected 'char *' but argument is of type 'char **'
+ int re_vsnprintf(char *str, size_t size, const char *fmt, va_list ap);
+     ^
+jni/and_log.c:16:2: warning: passing argument 3 of '__android_log_write' from incompatible pointer type [enabled by default]
+  return err < 0 ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'char **'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+14:30:22 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+14:30:55 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write_sta':
+jni/and_log.c:10:24: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                        ^
+jni/and_log.c:10:16: warning: initialization from incompatible pointer type [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                ^
+jni/and_log.c:13:2: warning: passing argument 1 of 're_vsnprintf' from incompatible pointer type [enabled by default]
+  err = re_vsnprintf(strp, 200, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:86:5: note: expected 'char *' but argument is of type 'char **'
+ int re_vsnprintf(char *str, size_t size, const char *fmt, va_list ap);
+     ^
+jni/and_log.c:16:2: warning: passing argument 3 of '__android_log_write' from incompatible pointer type [enabled by default]
+  return err < 0 ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'char **'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+jni/and_log.c: In function 're_alog_write_sta':
+jni/and_log.c:10:24: warning: incompatible implicit declaration of built-in function 'malloc' [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                        ^
+jni/and_log.c:10:16: warning: initialization from incompatible pointer type [enabled by default]
+  char **strp = (char*) malloc( sizeof(char) * ( 200 ) );
+                ^
+jni/and_log.c:13:2: warning: passing argument 1 of 're_vsnprintf' from incompatible pointer type [enabled by default]
+  err = re_vsnprintf(strp, 200, fmt, ap);
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/and_log.c:2:
+jni/re/include/re_fmt.h:86:5: note: expected 'char *' but argument is of type 'char **'
+ int re_vsnprintf(char *str, size_t size, const char *fmt, va_list ap);
+     ^
+jni/and_log.c:16:2: warning: passing argument 3 of '__android_log_write' from incompatible pointer type [enabled by default]
+  return err < 0 ? err : __android_log_write((int) pri, tag, strp);
+  ^
+In file included from jni/and_log.h:1:0,
+                 from jni/and_log.c:3:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:94:5: note: expected 'const char *' but argument is of type 'char **'
+ int __android_log_write(int prio, const char *tag, const char *text);
+     ^
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+14:31:11 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+14:40:29 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/and_log.c:19: error: undefined reference to 're_deref'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+14:41:26 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/and_log.c:22: error: undefined reference to 're_deref'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+14:42:04 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+15:02:45 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+16:57:53 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+16:59:26 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so

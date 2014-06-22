@@ -1,65 +1,11 @@
-12:49:00 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+16:59:26 **** Incremental Build of configuration Default for project CallVoiceChanger ****
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
 [armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
 [armeabi] Gdbsetup       : libs/armeabi/gdb.setup
 [armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
 [armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
-[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
-jni/sip_ua.c: In function 'update_media':
-jni/sip_ua.c:71:2: warning: unknown conversion type character 'J' in format [-Wformat=]
-  LOGV("SDP peer address: %J\n", sdp_media_raddr(sdp_media));
-  ^
-jni/sip_ua.c:71:2: warning: too many arguments for format [-Wformat-extra-args]
-jni/sip_ua.c: In function 'progress_handler':
-jni/sip_ua.c:141:2: warning: unknown conversion type character 'r' in format [-Wformat=]
-  LOGV("session progress: %u %r\n", msg->scode, &msg->reason);
-  ^
-jni/sip_ua.c:141:2: warning: too many arguments for format [-Wformat-extra-args]
-jni/sip_ua.c: In function 'close_handler':
-jni/sip_ua.c:163:3: warning: unknown conversion type character 'r' in format [-Wformat=]
-   LOGV("session closed: %u %r\n", msg->scode, &msg->reason);
-   ^
-jni/sip_ua.c:163:3: warning: too many arguments for format [-Wformat-extra-args]
-jni/sip_ua.c: In function 'connect_handler':
-jni/sip_ua.c:225:3: warning: unknown conversion type character 'r' in format [-Wformat=]
-   LOGV("accepting incoming call from <%r>\n",
-   ^
-jni/sip_ua.c:225:3: warning: too many arguments for format [-Wformat-extra-args]
-jni/sip_ua.c: In function 'register_handler':
-jni/sip_ua.c:239:3: warning: unknown conversion type character 'r' in format [-Wformat=]
-   LOGV("register reply: %u %r\n", msg->scode, &msg->reason);
-   ^
-jni/sip_ua.c:239:3: warning: too many arguments for format [-Wformat-extra-args]
-[armeabi] SharedLibrary  : libsmp_sip_jni.so
 [armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
-[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
-jni/sip_ua.c: In function 'update_media':
-jni/sip_ua.c:71:2: warning: unknown conversion type character 'J' in format [-Wformat=]
-  LOGV("SDP peer address: %J\n", sdp_media_raddr(sdp_media));
-  ^
-jni/sip_ua.c:71:2: warning: too many arguments for format [-Wformat-extra-args]
-jni/sip_ua.c: In function 'progress_handler':
-jni/sip_ua.c:141:2: warning: unknown conversion type character 'r' in format [-Wformat=]
-  LOGV("session progress: %u %r\n", msg->scode, &msg->reason);
-  ^
-jni/sip_ua.c:141:2: warning: too many arguments for format [-Wformat-extra-args]
-jni/sip_ua.c: In function 'close_handler':
-jni/sip_ua.c:163:3: warning: unknown conversion type character 'r' in format [-Wformat=]
-   LOGV("session closed: %u %r\n", msg->scode, &msg->reason);
-   ^
-jni/sip_ua.c:163:3: warning: too many arguments for format [-Wformat-extra-args]
-jni/sip_ua.c: In function 'connect_handler':
-jni/sip_ua.c:225:3: warning: unknown conversion type character 'r' in format [-Wformat=]
-   LOGV("accepting incoming call from <%r>\n",
-   ^
-jni/sip_ua.c:225:3: warning: too many arguments for format [-Wformat-extra-args]
-jni/sip_ua.c: In function 'register_handler':
-jni/sip_ua.c:239:3: warning: unknown conversion type character 'r' in format [-Wformat=]
-   LOGV("register reply: %u %r\n", msg->scode, &msg->reason);
-   ^
-jni/sip_ua.c:239:3: warning: too many arguments for format [-Wformat-extra-args]
-[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
 [armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
 
-12:49:00 Build Finished (took 414ms)
+16:59:27 Build Finished (took 168ms)
 

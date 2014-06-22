@@ -18,9 +18,10 @@
  */
 
 #include <string.h>
-#include "re.h"
+#include <re.h>
 #include "sip_ua.h"
 #include "util.h"
+#include "and_log.h"
 
 
 static struct sipsess_sock *sess_sock;  /* SIP session socket */
@@ -58,7 +59,7 @@ static int auth_handler(char **user, char **pass, const char *realm, void *arg)
 
 	err |= str_dup(user, name);
 	err |= str_dup(pass, "cantTouchthis666");
-	LOGV("Authenticating");
+	RE_LOGV("%s", "authenticating");
 	return err;
 }
 
@@ -68,15 +69,15 @@ static void update_media(void)
 {
 	const struct sdp_format *fmt;
 
-	LOGV("SDP peer address: %J\n", sdp_media_raddr(sdp_media));
+	RE_LOGV("SDP peer address: %J\n", sdp_media_raddr(sdp_media));
 
 	fmt = sdp_media_rformat(sdp_media, NULL);
 	if (!fmt) {
-		LOGV("no common media format found\n");
+		RE_LOGV("no common media format found\n");
 		return;
 	}
 
-	LOGV("SDP media format: %s/%u/%u (payload type: %u)\n",
+	RE_LOGV("SDP media format: %s/%u/%u (payload type: %u)\n",
 		  fmt->name, fmt->srate, fmt->ch, fmt->pt);
 }
 
@@ -96,16 +97,16 @@ static int offer_handler(struct mbuf **mbp, const struct sip_msg *msg,
 
 		err = sdp_decode(sdp, msg->mb, true);
 		if (err) {
-			LOGV("unable to decode SDP offer: %s\n",
+			RE_LOGV("unable to decode SDP offer: %s\n",
 				   strerror(err));
 			return err;
 		}
 
-		LOGV("SDP offer received\n");
+		RE_LOGV("SDP offer received\n");
 		update_media();
 	}
 	else {
-		LOGV("sending SDP offer\n");
+		RE_LOGV("sending SDP offer\n");
 	}
 
 	return sdp_encode(mbp, sdp, !got_offer);
@@ -118,7 +119,7 @@ static int answer_handler(const struct sip_msg *msg, void *arg)
 	int err;
 	(void)arg;
 
-	LOGV("SDP answer received\n");
+	RE_LOGV("SDP answer received\n");
 
 	err = sdp_decode(sdp, msg->mb, false);
 	if (err) {
@@ -138,7 +139,7 @@ static void progress_handler(const struct sip_msg *msg, void *arg)
 {
 	(void)arg;
 
-	LOGV("session progress: %u %r\n", msg->scode, &msg->reason);
+	RE_LOGV("session progress: %u %r\n", msg->scode, &msg->reason);
 }
 
 
@@ -148,7 +149,7 @@ static void establish_handler(const struct sip_msg *msg, void *arg)
 	(void)msg;
 	(void)arg;
 
-	LOGV("session established\n");
+	RE_LOGV("session established\n");
 }
 
 
@@ -158,9 +159,9 @@ static void close_handler(int err, const struct sip_msg *msg, void *arg)
 	(void)arg;
 
 	if (err)
-		LOGV("session closed: %s\n", strerror(err));
+		RE_LOGV("session closed: %s\n", strerror(err));
 	else
-		LOGV("session closed: %u %r\n", msg->scode, &msg->reason);
+		RE_LOGV("session closed: %u %r\n", msg->scode, &msg->reason);
 
 	terminate();
 }
@@ -222,7 +223,7 @@ static void connect_handler(const struct sip_msg *msg, void *arg)
 		(void)sip_treply(NULL, sip, msg, 500, strerror(err));
 	}
 	else {
-		LOGV("accepting incoming call from <%r>\n",
+		RE_LOGV("accepting incoming call from <%r>\n",
 			  &msg->from.auri);
 	}
 }
@@ -234,9 +235,9 @@ static void register_handler(int err, const struct sip_msg *msg, void *arg)
 	(void)arg;
 
 	if (err)
-		LOGV("register error: %s\n", strerror(err));
+		RE_LOGV("register error: %s\n", strerror(err));
 	else
-		LOGV("register reply: %u %r\n", msg->scode, &msg->reason);
+		RE_LOGV("register reply: %u %r\n", msg->scode, &msg->reason);
 }
 
 
@@ -253,7 +254,7 @@ static void exit_handler(void *arg)
 /* called upon reception of  SIGINT, SIGALRM or SIGTERM */
 static void signal_handler(int sig)
 {
-	LOGV("terminating on signal %d...\n", sig);
+	RE_LOGV("terminating on signal %d...\n", sig);
 
 	terminate();
 }
@@ -379,7 +380,7 @@ int make_call()
 			goto out;
 		}
 
-		LOGV("inviting <%s>...\n", uri);
+		RE_LOGV("inviting <%s>...\n", uri);
 	}
 	else {
 
@@ -392,7 +393,7 @@ int make_call()
 			goto out;
 		}
 
-		LOGV("registering <%s>...\n", uri);
+		RE_LOGV("registering <%s>...\n", uri);
 	}
 
 	/* main loop */

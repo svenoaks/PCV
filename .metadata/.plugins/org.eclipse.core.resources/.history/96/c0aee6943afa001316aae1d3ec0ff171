@@ -1,0 +1,11 @@
+#include <android/log.h>
+
+#define ALOG_TAG "re_alog"
+
+#define  RE_LOGV(f, ...)  re_alog_write((int) ANDROID_LOG_VERBOSE, ALOG_TAG, f, __VA_ARGS__)
+#define  RE_LOGE(fmt, ...)  re_alog_write((int) ANDROID_LOG_ERROR, ALOG_TAG, fmt, __VA_ARGS__)
+#define  RE_LOGW(fmt, ...)  re_alog_write((int) ANDROID_LOG_WARN, ALOG_TAG, fmt, __VA_ARGS__)
+#define  RE_LOGD(fmt, ...)  re_alog_write((int) ANDROID_LOG_DEBUG, ALOG_TAG, fmt, __VA_ARGS__)
+#define  RE_LOGI(fmt, ...)  re_alog_write((int) ANDROID_LOG_INFO, ALOG_TAG, fmt, __VA_ARGS__)
+
+

@@ -63,7 +63,7 @@ obj/local/armeabi/objs-debug/smp_sip_jni/sip_ua.o: jni/sip_ua.c \
  jni/re/include/re_srtp.h jni/re/include/re_sys.h jni/re/include/re_tcp.h \
  jni/re/include/re_telev.h jni/re/include/re_tmr.h \
  jni/re/include/re_tls.h jni/re/include/re_turn.h jni/re/include/re_udp.h \
- jni/re/include/re_websock.h jni/sip_ua.h jni/util.h \
+ jni/re/include/re_websock.h jni/sip_ua.h jni/util.h jni/and_log.h \
  /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h
 
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/string.h:
@@ -245,5 +245,7 @@ jni/re/include/re_websock.h:
 jni/sip_ua.h:
 
 jni/util.h:
+
+jni/and_log.h:
 
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:

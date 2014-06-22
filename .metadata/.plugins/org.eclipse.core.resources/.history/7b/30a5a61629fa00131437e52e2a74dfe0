@@ -1,0 +1,24 @@
+#include <android/log.h>
+#include <stdarg.h>
+#include <re.h>
+
+int re_alog_write(android_LogPriority pri, const char *tag, const char *fmt, ...)
+{
+	va_list ap;
+	int err;
+	char *strp;
+
+	va_start(ap, fmt);
+	err = re_sdprintf(strp, fmt, ap);
+	va_end(ap);
+
+	return err ? err : __android_log_write((int) pri, tag, strp);
+}
+
+//int re_alogv(const char *tag, const char *fmt, ...) { return alog_write(ANDROID_LOG_VERBOSE, tag, )
+#define LOG_TAG "re_alog"
+
+#define  RE_LOGE(fmt, ...)  re_alog_write(ANDROID_LOG_ERROR, LOG_TAG, fmt, __VA_ARGS__)
+#define  RE_LOGW(fmt, ...)  re_alog_write(ANDROID_LOG_WARN, LOG_TAG, fmt, __VA_ARGS__)
+#define  RE_LOGD(fmt, ...)  re_alog_write(ANDROID_LOG_DEBUG, LOG_TAG, fmt, __VA_ARGS__)
+#define  RE_LOGI(fmt, ...)  re_alog_write(ANDROID_LOG_INFO, LOG_TAG, fmt, __VA_ARGS__)

@@ -2,9 +2,9 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="263" key="DIALOG_WIDTH"/>
-		<item value="571" key="DIALOG_Y_ORIGIN"/>
+		<item value="302" key="DIALOG_Y_ORIGIN"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
-		<item value="1140" key="DIALOG_X_ORIGIN"/>
+		<item value="1853" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
@@ -13,18 +13,21 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="exit_ha" key="selection"/>
+		<item value="re_alogv" key="selection"/>
 		<list key="findhistory">
-			<item value="exit_ha"/>
-			<item value="re_main"/>
-			<item value="sys_username"/>
-			<item value="collect"/>
+			<item value="LOGV"/>
 			<item value="update_media"/>
-			<item value="connect"/>
-			<item value="connect_handler"/>
-			<item value="exit_handler"/>
+			<item value="SDP An"/>
+			<item value="offer_handler"/>
+			<item value="register_ha"/>
+			<item value="re_printf"/>
+			<item value="stderr, "/>
+			<item value="LOG_V"/>
 		</list>
 		<list key="replacehistory">
+			<item value="re_alogv"/>
+			<item value="LOGV"/>
+			<item value=""/>
 			<item value=".c \"/>
 			<item value="    re-0.4.8/"/>
 		</list>

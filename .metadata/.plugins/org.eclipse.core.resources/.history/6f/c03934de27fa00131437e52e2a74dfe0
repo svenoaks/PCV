@@ -1,0 +1,10 @@
+#include <android/log.h>
+#include "and_log.h"
+
+
+static int log_write(android_LogPriority pri, const char  *tag, const char *msg)
+{
+	return __android_log_write((int)pri, tag, msg);
+}
+
+int re_alogv()

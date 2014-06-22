@@ -1,0 +1,16 @@
+#include <android/log.h>
+#include <stdarg.h>
+#include <re.h>
+
+int re_alog_write(android_LogPriority pri, const char *tag, const char *fmt, ...)
+{
+	va_list ap;
+	int err;
+	char **strp;
+
+	va_start(ap, fmt);
+	err = re_sdprintf(strp, fmt, ap);
+	va_end(ap);
+
+	return err ? err : __android_log_write((int) pri, tag, *strp);
+}
