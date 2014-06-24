@@ -13,7 +13,6 @@
 /*
  * Basic integral types from C99
  */
-#define HAVE_INTTYPES_H
 #ifdef HAVE_INTTYPES_H
 #include <inttypes.h>
 #else

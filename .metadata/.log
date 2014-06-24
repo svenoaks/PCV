@@ -3529,3 +3529,136 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.
 
 !ENTRY org.eclipse.ui 4 4 2014-06-22 16:57:45.358
 !MESSAGE Unable to find Action Set: org.eclipse.mylyn.tasks.ui.navigation
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-22 17:33:39.698
+!MESSAGE Indexed 'CallVoiceChanger' (39 sources, 1,104 headers) in 13.57 sec: 68,317 declarations; 83,342 references; 0 unresolved inclusions; 285 syntax errors; 180 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-22 17:35:12.345
+!MESSAGE Indexed 'CallVoiceChanger' (39 sources, 1,115 headers) in 6.02 sec: 68,647 declarations; 84,668 references; 0 unresolved inclusions; 285 syntax errors; 180 unresolved names (0.12%)
+
+!ENTRY org.eclipse.jface.text 4 0 2014-06-22 17:36:19.519
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1937)
+	at org.eclipse.cdt.make.internal.ui.text.WordPartDetector.<init>(WordPartDetector.java:122)
+	at org.eclipse.cdt.make.internal.ui.text.makefile.MakefileTextHover.getHoverInfo(MakefileTextHover.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-22 17:37:26.643
+!MESSAGE Indexed 'CallVoiceChanger' (39 sources, 1,115 headers) in 5.65 sec: 68,647 declarations; 84,668 references; 0 unresolved inclusions; 285 syntax errors; 180 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-22 17:39:18.068
+!MESSAGE Indexed 'CallVoiceChanger' (39 sources, 1,104 headers) in 6.01 sec: 68,317 declarations; 83,342 references; 0 unresolved inclusions; 285 syntax errors; 180 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-22 17:39:49.879
+!MESSAGE Indexed 'CallVoiceChanger' (39 sources, 1,104 headers) in 5.19 sec: 68,317 declarations; 83,342 references; 0 unresolved inclusions; 285 syntax errors; 180 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-22 17:41:34.161
+!MESSAGE Indexed 'CallVoiceChanger' (39 sources, 1,104 headers) in 5.05 sec: 68,317 declarations; 83,342 references; 0 unresolved inclusions; 285 syntax errors; 180 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-22 17:42:10.841
+!MESSAGE Indexed 'CallVoiceChanger' (39 sources, 1,104 headers) in 5.17 sec: 68,317 declarations; 83,342 references; 0 unresolved inclusions; 285 syntax errors; 180 unresolved names (0.12%)
+
+!ENTRY org.eclipse.jface.text 4 0 2014-06-22 17:42:21.794
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1937)
+	at org.eclipse.cdt.make.internal.ui.text.WordPartDetector.<init>(WordPartDetector.java:122)
+	at org.eclipse.cdt.make.internal.ui.text.makefile.MakefileTextHover.getHoverInfo(MakefileTextHover.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-22 17:44:19.771
+!MESSAGE Indexed 'CallVoiceChanger' (39 sources, 1,115 headers) in 5.11 sec: 68,647 declarations; 84,668 references; 0 unresolved inclusions; 285 syntax errors; 180 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-22 17:48:06.499
+!MESSAGE Indexed 'CallVoiceChanger' (39 sources, 1,115 headers) in 4.95 sec: 68,647 declarations; 84,668 references; 0 unresolved inclusions; 285 syntax errors; 180 unresolved names (0.12%)
+
+!ENTRY org.eclipse.jface.text 4 0 2014-06-22 17:54:50.324
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1937)
+	at org.eclipse.cdt.make.internal.ui.text.WordPartDetector.<init>(WordPartDetector.java:122)
+	at org.eclipse.cdt.make.internal.ui.text.makefile.MakefileTextHover.getHoverInfo(MakefileTextHover.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.jface.text 4 0 2014-06-22 17:54:51.078
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1937)
+	at org.eclipse.cdt.make.internal.ui.text.WordPartDetector.<init>(WordPartDetector.java:122)
+	at org.eclipse.cdt.make.internal.ui.text.makefile.MakefileTextHover.getHoverInfo(MakefileTextHover.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-22 17:56:09.890
+!MESSAGE Indexed 'CallVoiceChanger' (41 sources, 1,148 headers) in 5.07 sec: 69,663 declarations; 88,222 references; 4 unresolved inclusions; 293 syntax errors; 574 unresolved names (0.36%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-22 18:07:06.386
+!MESSAGE Indexed 'CallVoiceChanger' (41 sources, 1,152 headers) in 5.01 sec: 71,379 declarations; 89,098 references; 0 unresolved inclusions; 293 syntax errors; 568 unresolved names (0.35%)
+
+!ENTRY org.eclipse.ui 4 0 2014-06-22 21:42:54.935
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4397)
+	at org.eclipse.swt.SWT.error(SWT.java:4312)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3976)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3653)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.lang.NullPointerException
+	at com.android.ddmuilib.logcat.LogCatPanel.deviceSelected(LogCatPanel.java:364)
+	at com.android.ddmuilib.SelectionDependentPanel.deviceSelected(SelectionDependentPanel.java:52)
+	at com.android.ide.eclipse.ddms.views.SelectionDependentViewPart.selectionChanged(SelectionDependentViewPart.java:69)
+	at com.android.ide.eclipse.ddms.DdmsPlugin$7.run(DdmsPlugin.java:753)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	... 23 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-22 21:59:11.070
+!MESSAGE Indexed 'CallVoiceChanger' (41 sources, 1,150 headers) in 5.05 sec: 71,359 declarations; 89,089 references; 0 unresolved inclusions; 293 syntax errors; 568 unresolved names (0.35%)
+!SESSION 2014-06-22 21:59:17.429 -----------------------------------------------
+eclipse.buildId=v22.6.2-1085508
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product -keyring /Users/Steve/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.ide.eclipse.adt.package.product -keyring /Users/Steve/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-06-22 21:59:20.181
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2014-06-22 21:59:20.856
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.context.ui.actionSet
+
+!ENTRY org.eclipse.ui 4 4 2014-06-22 21:59:20.865
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.doc.actionSet
+
+!ENTRY org.eclipse.ui 4 4 2014-06-22 21:59:20.865
+!MESSAGE Unable to find Action Set: org.eclipse.mylyn.tasks.ui.navigation
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-06-22 22:02:57.673
+!MESSAGE Indexed 'CallVoiceChanger' (41 sources, 1,174 headers) in 9.66 sec: 71,520 declarations; 89,362 references; 0 unresolved inclusions; 303 syntax errors; 581 unresolved names (0.36%)

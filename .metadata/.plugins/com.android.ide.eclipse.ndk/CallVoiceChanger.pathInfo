@@ -1,9 +1,11 @@
-t,1403450605000
+t,1403488957000
 i,jni
-i,jni/re/include
+i,jni/sip/include
 i,/Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.8/include
 i,/Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi/include
 i,/Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.8/include/backward
+i,jni/re/include
+i,jni/rem/include
 i,jni/openssl/include/openssl
 i,/Applications/adt-bundle-mac-x86_64-20140321/ndk/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include
 i,/Applications/adt-bundle-mac-x86_64-20140321/ndk/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.8/include
@@ -26,6 +28,7 @@ d,__LFRACT_IBIT__,0
 d,__DEC128_MANT_DIG__,34
 d,__GCC_ATOMIC_INT_LOCK_FREE,2
 d,__UINTPTR_TYPE__,unsigned int
+d,HAVE_PTHREAD,1
 d,__HA_IBIT__,8
 d,__ACCUM_MAX__,0X7FFFFFFFP-15K
 d,__LACCUM_IBIT__,32
@@ -297,6 +300,7 @@ d,__LDBL_MIN__,2.2250738585072014e-308L
 d,__HQ_IBIT__,0
 d,__SACCUM_MAX__,0X7FFFP-7HK
 d,__INT8_TYPE__,signed char
+d,HAVE_INTTYPES_H,1
 d,__BYTE_ORDER__,__ORDER_LITTLE_ENDIAN__
 d,__SIZEOF_FLOAT__,4
 d,__INTMAX_MAX__,9223372036854775807LL
@@ -315,6 +319,7 @@ d,__ARM_PCS,1
 d,__TA_FBIT__,63
 d,__INT32_MAX__,2147483647
 d,__VERSION__,"4.8"
+d,HAVE_UNISTD_H,1
 d,__UFRACT_EPSILON__,0x1P-16UR
 d,__UFRACT_FBIT__,16
 d,__GCC_ATOMIC_CHAR_LOCK_FREE,2

@@ -1,11 +1,25 @@
-16:59:26 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+22:30:57 **** Build of configuration Default for project CallVoiceChanger ****
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
 [armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
 [armeabi] Gdbsetup       : libs/armeabi/gdb.setup
 [armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
 [armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= and_log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
 [armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : sip <= sip_ua.c
+[armeabi-v7a] Compile thumb  : sip <= and_log.c
+[armeabi-v7a] Compile thumb  : sip <= audio.c
+[armeabi-v7a] Compile thumb  : sip <= call.c
+[armeabi-v7a] StaticLibrary  : libsip.a
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
 [armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
 
-16:59:27 Build Finished (took 168ms)
+22:30:58 Build Finished (took 1s.222ms)
 

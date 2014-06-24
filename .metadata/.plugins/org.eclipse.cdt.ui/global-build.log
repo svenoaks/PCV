@@ -6034,3 +6034,641 @@ make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
 [armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
 [armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
 [armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+17:33:16 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+17:33:25 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+jni/sip_jni.cpp:5:20: fatal error: sip_ua.h: No such file or directory
+ #include "sip_ua.h"
+                    ^
+compilation terminated.
+make: *** [obj/local/armeabi/objs-debug/smp_sip_jni/sip_jni.o] Error 1
+17:34:05 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+make: *** No rule to make target `/sip/sip_ua.c', needed by `obj/local/armeabi/objs-debug/smp_sip_jni//sip/sip_ua.o'.  Stop.
+17:35:05 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi-v7a] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+17:37:20 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+jni/sip/sip_ua.c:21:16: fatal error: re.h: No such file or directory
+ #include <re.h>
+                ^
+compilation terminated.
+make: *** [obj/local/armeabi/objs-debug/smp_sip_jni/sip/sip_ua.o] Error 1
+17:39:04 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : sip [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : sip [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+17:39:11 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : smp_sip_jni <= sip_ua.c
+[armeabi] Compile thumb  : smp_sip_jni <= and_log.c
+[armeabi] Compile thumb  : sip <= sip_ua.c
+jni/sip/sip_ua.c:22:20: fatal error: sip_ua.h: No such file or directory
+ #include "sip_ua.h"
+                    ^
+compilation terminated.
+make: *** [obj/local/armeabi/objs-debug/sip/sip/sip_ua.o] Error 1
+17:39:44 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+jni/sip/sip_ua.c:22:20: fatal error: sip_ua.h: No such file or directory
+ #include "sip_ua.h"
+                    ^
+compilation terminated.
+make: *** [obj/local/armeabi/objs-debug/sip/sip/sip_ua.o] Error 1
+17:40:25 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : sip <= sip_ua.c
+jni/sip/sip_ua.c:22:20: fatal error: sip_ua.h: No such file or directory
+ #include <sip_ua.h>
+                    ^
+compilation terminated.
+make: *** [obj/local/armeabi/objs-debug/sip/sip/sip_ua.o] Error 1
+17:41:28 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+jni/sip/sip_ua.c:22:20: fatal error: sip_ua.h: No such file or directory
+ #include <sip_ua.h>
+                    ^
+compilation terminated.
+make: *** [obj/local/armeabi/objs-debug/sip/sip/sip_ua.o] Error 1
+17:42:05 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+make: *** No rule to make target `jni/sip/and_log.c', needed by `obj/local/armeabi/objs-debug/sip/sip/and_log.o'.  Stop.
+17:42:58 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : sip <= and_log.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : sip <= sip_ua.c
+[armeabi-v7a] Compile thumb  : sip <= and_log.c
+[armeabi-v7a] StaticLibrary  : libsip.a
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+17:44:14 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+jni/sip/sip_ua.c:22:20: fatal error: sip_ua.h: No such file or directory
+ #include <sip_ua.h>
+                    ^
+compilation terminated.
+make: *** [obj/local/armeabi/objs-debug/sip/sip/sip_ua.o] Error 1
+17:45:20 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : sip <= sip_ua.c
+jni/sip/sip_ua.c:24:21: fatal error: and_log.h: No such file or directory
+ #include "and_log.h"
+                     ^
+compilation terminated.
+make: *** [obj/local/armeabi/objs-debug/sip/sip/sip_ua.o] Error 1
+17:46:07 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : sip <= sip_ua.c
+jni/sip/sip_ua.c:22:20: fatal error: sip_ua.h: No such file or directory
+ #include <sip_ua.h>
+                    ^
+compilation terminated.
+make: *** [obj/local/armeabi/objs-debug/sip/sip/sip_ua.o] Error 1
+17:48:00 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= and_log.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : sip <= sip_ua.c
+[armeabi-v7a] Compile thumb  : sip <= and_log.c
+[armeabi-v7a] StaticLibrary  : libsip.a
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+17:56:03 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= and_log.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : sip <= sip_ua.c
+[armeabi-v7a] Compile thumb  : sip <= and_log.c
+[armeabi-v7a] StaticLibrary  : libsip.a
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+21:52:29 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : rem [armeabi]
+[armeabi] Clean          : sip [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : rem [armeabi-v7a]
+[armeabi-v7a] Clean          : sip [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+21:52:39 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+In file included from jni/re/include/re_sa.h:11:0,
+                 from jni/re/include/re.h:20,
+                 from jni/sip/sip_ua.c:21:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/sys/socket.h:61:13: error: conflicting types for 'socklen_t'
+ typedef int socklen_t;
+             ^
+In file included from jni/re/include/re.h:15:0,
+                 from jni/sip/sip_ua.c:21:
+jni/re/include/re_types.h:56:18: note: previous declaration of 'socklen_t' was here
+ typedef uint32_t socklen_t;
+                  ^
+make: *** [obj/local/armeabi/objs-debug/sip/sip/sip_ua.o] Error 1
+21:53:39 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : sip <= sip_ua.c
+In file included from jni/re/include/re_sa.h:11:0,
+                 from jni/re/include/re.h:20,
+                 from jni/sip/sip_ua.c:21:
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/sys/socket.h:61:13: error: conflicting types for 'socklen_t'
+ typedef int socklen_t;
+             ^
+In file included from jni/re/include/re.h:15:0,
+                 from jni/sip/sip_ua.c:21:
+jni/re/include/re_types.h:56:18: note: previous declaration of 'socklen_t' was here
+ typedef uint32_t socklen_t;
+                  ^
+make: *** [obj/local/armeabi/objs-debug/sip/sip/sip_ua.o] Error 1
+21:55:51 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+In file included from jni/sip_jni.cpp:2:0:
+jni/util.h:2:0: warning: "HAVE_INTTYPES_H" redefined [enabled by default]
+ #define HAVE_INTTYPES_H
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= and_log.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+In file included from jni/sip_jni.cpp:2:0:
+jni/util.h:2:0: warning: "HAVE_INTTYPES_H" redefined [enabled by default]
+ #define HAVE_INTTYPES_H
+ ^
+<command-line>:0:0: note: this is the location of the previous definition
+[armeabi-v7a] Compile thumb  : sip <= sip_ua.c
+[armeabi-v7a] Compile thumb  : sip <= and_log.c
+[armeabi-v7a] StaticLibrary  : libsip.a
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+21:56:26 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+21:58:06 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+jni/Application.mk:9: *** commands commence before first target.  Stop.
+21:58:23 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= and_log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : sip <= sip_ua.c
+[armeabi-v7a] Compile thumb  : sip <= and_log.c
+[armeabi-v7a] Compile thumb  : sip <= audio.c
+[armeabi-v7a] StaticLibrary  : libsip.a
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+21:59:28 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+22:00:05 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= and_log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : sip <= sip_ua.c
+[armeabi-v7a] Compile thumb  : sip <= and_log.c
+[armeabi-v7a] Compile thumb  : sip <= audio.c
+[armeabi-v7a] StaticLibrary  : libsip.a
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+22:02:46 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= and_log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+jni/sip/call.c: In function 'sipsess_answer_handler':
+jni/sip/call.c:965:33: error: 'const struct sip_msg' has no member named 'ctype'
+  (void)sdp_decode_multipart(&msg->ctype, msg->mb);
+                                 ^
+jni/sip/call.c: In function 'sipsess_info_handler':
+jni/sip/call.c:1041:25: error: 'const struct sip_msg' has no member named 'ctype'
+  if (!pl_strcasecmp(&msg->ctype, "application/dtmf-relay")) {
+                         ^
+jni/sip/call.c: In function 'sipsess_progr_handler':
+jni/sip/call.c:1239:37: error: 'const struct sip_msg' has no member named 'ctype'
+       msg->scode, &msg->reason, &msg->ctype);
+                                     ^
+jni/sip/call.c:1252:25: error: 'const struct sip_msg' has no member named 'ctype'
+  if (!pl_strcasecmp(&msg->ctype, "application/sdp")
+                         ^
+jni/sip/call.c:1257:37: error: 'const struct sip_msg' has no member named 'ctype'
+  else if (!sdp_decode_multipart(&msg->ctype, msg->mb) &&
+                                     ^
+make: *** [obj/local/armeabi/objs-debug/sip/sip/call.o] Error 1
+22:03:25 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : rem [armeabi]
+[armeabi] Clean          : sip [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : rem [armeabi-v7a]
+[armeabi-v7a] Clean          : sip [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+22:03:36 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= and_log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+jni/sip/call.c: In function 'sipsess_answer_handler':
+jni/sip/call.c:965:33: error: 'const struct sip_msg' has no member named 'ctype'
+  (void)sdp_decode_multipart(&msg->ctype, msg->mb);
+                                 ^
+jni/sip/call.c: In function 'sipsess_info_handler':
+jni/sip/call.c:1041:25: error: 'const struct sip_msg' has no member named 'ctype'
+  if (!pl_strcasecmp(&msg->ctype, "application/dtmf-relay")) {
+                         ^
+jni/sip/call.c: In function 'sipsess_progr_handler':
+jni/sip/call.c:1239:37: error: 'const struct sip_msg' has no member named 'ctype'
+       msg->scode, &msg->reason, &msg->ctype);
+                                     ^
+jni/sip/call.c:1252:25: error: 'const struct sip_msg' has no member named 'ctype'
+  if (!pl_strcasecmp(&msg->ctype, "application/sdp")
+                         ^
+jni/sip/call.c:1257:37: error: 'const struct sip_msg' has no member named 'ctype'
+  else if (!sdp_decode_multipart(&msg->ctype, msg->mb) &&
+                                     ^
+make: *** [obj/local/armeabi/objs-debug/sip/sip/call.o] Error 1
+22:03:51 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : sip <= call.c
+jni/sip/call.c: In function 'sipsess_answer_handler':
+jni/sip/call.c:965:33: error: 'const struct sip_msg' has no member named 'ctype'
+  (void)sdp_decode_multipart(&msg->ctype, msg->mb);
+                                 ^
+jni/sip/call.c: In function 'sipsess_info_handler':
+jni/sip/call.c:1041:25: error: 'const struct sip_msg' has no member named 'ctype'
+  if (!pl_strcasecmp(&msg->ctype, "application/dtmf-relay")) {
+                         ^
+jni/sip/call.c: In function 'sipsess_progr_handler':
+jni/sip/call.c:1239:37: error: 'const struct sip_msg' has no member named 'ctype'
+       msg->scode, &msg->reason, &msg->ctype);
+                                     ^
+jni/sip/call.c:1252:25: error: 'const struct sip_msg' has no member named 'ctype'
+  if (!pl_strcasecmp(&msg->ctype, "application/sdp")
+                         ^
+jni/sip/call.c:1257:37: error: 'const struct sip_msg' has no member named 'ctype'
+  else if (!sdp_decode_multipart(&msg->ctype, msg->mb) &&
+                                     ^
+make: *** [obj/local/armeabi/objs-debug/sip/sip/call.o] Error 1
+22:12:21 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= and_log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+jni/sip/call.c: In function 'sipsess_answer_handler':
+jni/sip/call.c:965:2: warning: passing argument 1 of 'sdp_decode_multipart' from incompatible pointer type [enabled by default]
+  (void)sdp_decode_multipart(&msg->ctype, msg->mb);
+  ^
+In file included from jni/sip/call.c:12:0:
+jni/sip/include/core.h:286:5: note: expected 'const struct pl *' but argument is of type 'const struct msg_ctype *'
+ int sdp_decode_multipart(const struct pl *ctype, struct mbuf *mb);
+     ^
+jni/sip/call.c: In function 'sipsess_info_handler':
+jni/sip/call.c:1041:2: warning: passing argument 1 of 'pl_strcasecmp' from incompatible pointer type [enabled by default]
+  if (!pl_strcasecmp(&msg->ctype, "application/dtmf-relay")) {
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/sip/call.c:10:
+jni/re/include/re_fmt.h:41:10: note: expected 'const struct pl *' but argument is of type 'const struct msg_ctype *'
+ int      pl_strcasecmp(const struct pl *pl, const char *str);
+          ^
+jni/sip/call.c: In function 'sipsess_progr_handler':
+jni/sip/call.c:1252:2: warning: passing argument 1 of 'pl_strcasecmp' from incompatible pointer type [enabled by default]
+  if (!pl_strcasecmp(&msg->ctype, "application/sdp")
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/sip/call.c:10:
+jni/re/include/re_fmt.h:41:10: note: expected 'const struct pl *' but argument is of type 'const struct msg_ctype *'
+ int      pl_strcasecmp(const struct pl *pl, const char *str);
+          ^
+jni/sip/call.c:1257:2: warning: passing argument 1 of 'sdp_decode_multipart' from incompatible pointer type [enabled by default]
+  else if (!sdp_decode_multipart(&msg->ctype, msg->mb) &&
+  ^
+In file included from jni/sip/call.c:12:0:
+jni/sip/include/core.h:286:5: note: expected 'const struct pl *' but argument is of type 'const struct msg_ctype *'
+ int sdp_decode_multipart(const struct pl *ctype, struct mbuf *mb);
+     ^
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : sip <= sip_ua.c
+[armeabi-v7a] Compile thumb  : sip <= and_log.c
+[armeabi-v7a] Compile thumb  : sip <= audio.c
+[armeabi-v7a] Compile thumb  : sip <= call.c
+jni/sip/call.c: In function 'sipsess_answer_handler':
+jni/sip/call.c:965:2: warning: passing argument 1 of 'sdp_decode_multipart' from incompatible pointer type [enabled by default]
+  (void)sdp_decode_multipart(&msg->ctype, msg->mb);
+  ^
+In file included from jni/sip/call.c:12:0:
+jni/sip/include/core.h:286:5: note: expected 'const struct pl *' but argument is of type 'const struct msg_ctype *'
+ int sdp_decode_multipart(const struct pl *ctype, struct mbuf *mb);
+     ^
+jni/sip/call.c: In function 'sipsess_info_handler':
+jni/sip/call.c:1041:2: warning: passing argument 1 of 'pl_strcasecmp' from incompatible pointer type [enabled by default]
+  if (!pl_strcasecmp(&msg->ctype, "application/dtmf-relay")) {
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/sip/call.c:10:
+jni/re/include/re_fmt.h:41:10: note: expected 'const struct pl *' but argument is of type 'const struct msg_ctype *'
+ int      pl_strcasecmp(const struct pl *pl, const char *str);
+          ^
+jni/sip/call.c: In function 'sipsess_progr_handler':
+jni/sip/call.c:1252:2: warning: passing argument 1 of 'pl_strcasecmp' from incompatible pointer type [enabled by default]
+  if (!pl_strcasecmp(&msg->ctype, "application/sdp")
+  ^
+In file included from jni/re/include/re.h:16:0,
+                 from jni/sip/call.c:10:
+jni/re/include/re_fmt.h:41:10: note: expected 'const struct pl *' but argument is of type 'const struct msg_ctype *'
+ int      pl_strcasecmp(const struct pl *pl, const char *str);
+          ^
+jni/sip/call.c:1257:2: warning: passing argument 1 of 'sdp_decode_multipart' from incompatible pointer type [enabled by default]
+  else if (!sdp_decode_multipart(&msg->ctype, msg->mb) &&
+  ^
+In file included from jni/sip/call.c:12:0:
+jni/sip/include/core.h:286:5: note: expected 'const struct pl *' but argument is of type 'const struct msg_ctype *'
+ int sdp_decode_multipart(const struct pl *ctype, struct mbuf *mb);
+     ^
+[armeabi-v7a] StaticLibrary  : libsip.a
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+22:13:24 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= and_log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+jni/sip/call.c: In function 'sipsess_answer_handler':
+jni/sip/call.c:965:33: error: 'const struct sip_msg' has no member named 'ctype'
+  (void)sdp_decode_multipart(&msg->ctype, msg->mb);
+                                 ^
+jni/sip/call.c: In function 'sipsess_info_handler':
+jni/sip/call.c:1041:25: error: 'const struct sip_msg' has no member named 'ctype'
+  if (!pl_strcasecmp(&msg->ctype, "application/dtmf-relay")) {
+                         ^
+jni/sip/call.c: In function 'sipsess_progr_handler':
+jni/sip/call.c:1239:37: error: 'const struct sip_msg' has no member named 'ctype'
+       msg->scode, &msg->reason, &msg->ctype);
+                                     ^
+jni/sip/call.c:1252:25: error: 'const struct sip_msg' has no member named 'ctype'
+  if (!pl_strcasecmp(&msg->ctype, "application/sdp")
+                         ^
+jni/sip/call.c:1257:37: error: 'const struct sip_msg' has no member named 'ctype'
+  else if (!sdp_decode_multipart(&msg->ctype, msg->mb) &&
+                                     ^
+make: *** [obj/local/armeabi/objs-debug/sip/sip/call.o] Error 1
+22:30:47 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : rem [armeabi]
+[armeabi] Clean          : sip [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : rem [armeabi-v7a]
+[armeabi-v7a] Clean          : sip [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+22:30:57 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= and_log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : sip <= sip_ua.c
+[armeabi-v7a] Compile thumb  : sip <= and_log.c
+[armeabi-v7a] Compile thumb  : sip <= audio.c
+[armeabi-v7a] Compile thumb  : sip <= call.c
+[armeabi-v7a] StaticLibrary  : libsip.a
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
