@@ -2,7 +2,8 @@
 #include <util.h>
 extern "C"
 {
-#include "sip_ua.h"
+#include <re.h>
+#include <baresip.h>
 }
 
 
@@ -17,7 +18,22 @@ void fromThread()
 
 extern "C" DLL_PUBLIC void Java_com_smp_rtp_JniTest_testJNI(JNIEnv *env, jobject thiz)
 {
-	make_call();
+	int err;
+
+	err = libre_init();
+		if (err)
+			goto out;
+
+	err = ua_init("baresip v" BARESIP_VERSION " (" ARCH "/" OS ")",
+				 true, true, true, true);
+
+	RE_LOGI("ERROR: %d", err);
+	if (err)
+		 	goto out;
+
+
+	out:
+	;
 }
 
 

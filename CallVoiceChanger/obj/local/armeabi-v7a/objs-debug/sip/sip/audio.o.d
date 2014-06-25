@@ -90,15 +90,17 @@ obj/local/armeabi-v7a/objs-debug/sip/sip/audio.o: jni/sip/audio.c \
  jni/re/include/re_srtp.h jni/re/include/re_sys.h jni/re/include/re_tcp.h \
  jni/re/include/re_telev.h jni/re/include/re_tmr.h \
  jni/re/include/re_tls.h jni/re/include/re_turn.h jni/re/include/re_udp.h \
- jni/re/include/re_websock.h jni/rem/include/rem.h \
- jni/rem/include/rem_audio.h jni/rem/include/rem_au.h \
- jni/rem/include/rem_aubuf.h jni/rem/include/rem_aufile.h \
- jni/rem/include/rem_autone.h jni/rem/include/rem_aumix.h \
- jni/rem/include/rem_fir.h jni/rem/include/rem_auresamp.h \
- jni/rem/include/rem_g711.h jni/rem/include/rem_video.h \
- jni/rem/include/rem_vid.h jni/rem/include/rem_vidmix.h \
- jni/rem/include/rem_vidconv.h jni/rem/include/rem_dsp.h \
- jni/sip/include/baresip.h jni/sip/include/core.h jni/sip/include/magic.h
+ jni/re/include/re_websock.h jni/re/include/re_log.h \
+ /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h \
+ jni/rem/include/rem.h jni/rem/include/rem_audio.h \
+ jni/rem/include/rem_au.h jni/rem/include/rem_aubuf.h \
+ jni/rem/include/rem_aufile.h jni/rem/include/rem_autone.h \
+ jni/rem/include/rem_aumix.h jni/rem/include/rem_fir.h \
+ jni/rem/include/rem_auresamp.h jni/rem/include/rem_g711.h \
+ jni/rem/include/rem_video.h jni/rem/include/rem_vid.h \
+ jni/rem/include/rem_vidmix.h jni/rem/include/rem_vidconv.h \
+ jni/rem/include/rem_dsp.h jni/sip/include/baresip.h \
+ jni/sip/include/core.h jni/sip/include/magic.h
 
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/string.h:
 
@@ -329,6 +331,10 @@ jni/re/include/re_turn.h:
 jni/re/include/re_udp.h:
 
 jni/re/include/re_websock.h:
+
+jni/re/include/re_log.h:
+
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:
 
 jni/rem/include/rem.h:
 

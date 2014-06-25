@@ -6672,3 +6672,886 @@ make: *** [obj/local/armeabi/objs-debug/sip/sip/call.o] Error 1
 [armeabi-v7a] StaticLibrary  : libsip.a
 [armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
 [armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+21:15:14 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : sip <= sip_ua.c
+[armeabi-v7a] StaticLibrary  : libsip.a
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+21:15:21 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+22:05:03 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : sip <= sip_ua.c
+make: *** No rule to make target `jni/sip/and_log.c', needed by `obj/local/armeabi/objs-debug/sip/sip/and_log.o'.  Stop.
+22:16:03 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : sip <= sip_ua.c
+[armeabi-v7a] Compile thumb  : sip <= log.c
+[armeabi-v7a] Compile thumb  : sip <= audio.c
+[armeabi-v7a] Compile thumb  : sip <= call.c
+[armeabi-v7a] StaticLibrary  : libsip.a
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+22:19:59 **** Clean-only build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 clean 
+[armeabi] Clean          : crypto [armeabi]
+[armeabi] Clean          : gnustl_shared [armeabi]
+[armeabi] Clean          : gnustl_static [armeabi]
+[armeabi] Clean          : re [armeabi]
+[armeabi] Clean          : rem [armeabi]
+[armeabi] Clean          : sip [armeabi]
+[armeabi] Clean          : smp_sip_jni [armeabi]
+[armeabi] Clean          : ssl [armeabi]
+[armeabi-v7a] Clean          : crypto [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_shared [armeabi-v7a]
+[armeabi-v7a] Clean          : gnustl_static [armeabi-v7a]
+[armeabi-v7a] Clean          : re [armeabi-v7a]
+[armeabi-v7a] Clean          : rem [armeabi-v7a]
+[armeabi-v7a] Clean          : sip [armeabi-v7a]
+[armeabi-v7a] Clean          : smp_sip_jni [armeabi-v7a]
+[armeabi-v7a] Clean          : ssl [armeabi-v7a]
+22:21:27 **** Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi-v7a] Compile thumb  : sip <= sip_ua.c
+[armeabi-v7a] Compile thumb  : sip <= log.c
+[armeabi-v7a] Compile thumb  : sip <= audio.c
+[armeabi-v7a] Compile thumb  : sip <= call.c
+[armeabi-v7a] StaticLibrary  : libsip.a
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+22:23:03 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile thumb  : sip <= log.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+[armeabi] Install        : libsmp_sip_jni.so => libs/armeabi/libsmp_sip_jni.so
+[armeabi-v7a] Compile thumb  : sip <= log.c
+[armeabi-v7a] StaticLibrary  : libsip.a
+[armeabi-v7a] SharedLibrary  : libsmp_sip_jni.so
+[armeabi-v7a] Install        : libsmp_sip_jni.so => libs/armeabi-v7a/libsmp_sip_jni.so
+22:05:20 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+In file included from jni/re/include/re.h:60:0,
+                 from jni/sip_jni.cpp:5:
+jni/sip_jni.cpp: In function 'void Java_com_smp_rtp_JniTest_testJNI(JNIEnv*, jobject)':
+jni/re/include/re_log.h:10:78: error: 'log_write' was not declared in this scope
+ #define  RE_LOGI(...)  log_write((int) ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+                                                                              ^
+jni/sip_jni.cpp:30:2: note: in expansion of macro 'RE_LOGI'
+  RE_LOGI("ERROR: %d", err);
+  ^
+make: *** [obj/local/armeabi/objs-debug/smp_sip_jni/sip_jni.o] Error 1
+22:07:18 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/sip_jni.cpp:28: error: undefined reference to 'ua_init'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+22:11:43 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+jni/Android.mk:35: *** commands commence before first target.  Stop.
+22:11:54 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+[armeabi] Compile thumb  : sip <= ua.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/sip/ua.c:101: error: undefined reference to 'info'
+jni/sip/ua.c:182: error: undefined reference to 'reg_register'
+jni/sip/ua.c:185: error: undefined reference to 'warning'
+jni/sip/ua.c:206: error: undefined reference to 'reg_isok'
+jni/sip/ua.c:234: error: undefined reference to 'warning'
+jni/sip/ua.c:257: error: undefined reference to 'play_file'
+jni/sip/ua.c:262: error: undefined reference to 'play_file'
+jni/sip/ua.c:271: error: undefined reference to 'play_file'
+jni/sip/ua.c:291: error: undefined reference to 'play_file'
+jni/sip/ua.c:317: error: undefined reference to 'warning'
+jni/sip/ua.c:338: error: undefined reference to 'warning'
+jni/sip/ua.c:345: error: undefined reference to 'conf_config'
+jni/sip/ua.c:479: error: undefined reference to 'account_alloc'
+jni/sip/ua.c:524: error: undefined reference to 'reg_add'
+jni/sip/ua.c:531: error: undefined reference to 'reg_add'
+jni/sip/ua.c:722: error: undefined reference to 'reg_status'
+jni/sip/ua.c:748: error: undefined reference to 'sip_req_send'
+jni/sip/ua.c:833: error: undefined reference to 'account_debug'
+jni/sip/ua.c:836: error: undefined reference to 'reg_debug'
+jni/sip/ua.c:924: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:925: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:978: error: undefined reference to 'info'
+jni/sip/ua.c:988: error: undefined reference to 'info'
+jni/sip/ua.c:1025: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1025: error: undefined reference to 'info'
+jni/sip/ua.c:1064: error: undefined reference to 'conf_config'
+jni/sip/ua.c:1070: error: undefined reference to 'ui_init'
+jni/sip/ua.c:1072: error: undefined reference to 'play_init'
+jni/sip/ua.c:1075: error: undefined reference to 'net_init'
+jni/sip/ua.c:1088: error: undefined reference to 'net_dnsc'
+jni/sip/ua.c:1112: error: undefined reference to 'cmd_register'
+jni/sip/ua.c:1116: error: undefined reference to 'net_change'
+jni/sip/ua.c:1132: error: undefined reference to 'cmd_unregister'
+jni/sip/ua.c:1133: error: undefined reference to 'net_close'
+jni/sip/ua.c:1134: error: undefined reference to 'play_close'
+jni/sip/ua.c:1157: error: undefined reference to 'module_app_unload'
+jni/sip/ua.c:1190: error: undefined reference to 'net_check'
+jni/sip/ua.c:1345: error: undefined reference to 'reg_sipfd'
+jni/sip/ua.c:1422: error: undefined reference to 'account_laddr'
+jni/sip/call.c:112: error: undefined reference to 'stream_sdpmedia'
+jni/sip/call.c:170: error: undefined reference to 'stream_reset'
+jni/sip/call.c:286: error: undefined reference to 'stream_update'
+jni/sip/call.c:292: error: undefined reference to 'stream_sdpmedia'
+jni/sip/call.c:463: error: undefined reference to 'net_laddr_af'
+jni/sip/call.c:478: error: undefined reference to 'net_dnsc'
+jni/sip/call.c:507: error: undefined reference to 'account_aucodecl'
+jni/sip/call.c:730: error: undefined reference to 'stream_sdpmedia'
+jni/sip/call.c:730: error: undefined reference to 'sdp_media_has_media'
+jni/sip/call.c:772: error: undefined reference to 'stream_hold'
+jni/sip/call.c:866: error: undefined reference to 'stream_print'
+jni/sip/call.c:888: error: undefined reference to 'stream_jbuf_stat'
+jni/sip/call.c:931: error: undefined reference to 'account_auth'
+jni/sip/call.c:971: error: undefined reference to 'sdp_decode_multipart'
+jni/sip/call.c:1188: error: undefined reference to 'stream_sdpmedia'
+jni/sip/call.c:1294: error: undefined reference to 'sdp_decode_multipart'
+jni/sip/audio.c:275: error: undefined reference to 'debug'
+jni/sip/audio.c:281: error: undefined reference to 'debug'
+jni/sip/audio.c:327: error: undefined reference to 'stream_send'
+jni/sip/audio.c:410: error: undefined reference to 'stream_send'
+jni/sip/audio.c:666: error: undefined reference to 'stream_alloc'
+jni/sip/audio.c:675: error: undefined reference to 'stream_set_bw'
+jni/sip/audio.c:741: error: undefined reference to 'realtime_enable'
+jni/sip/audio.c:857: error: undefined reference to 'aufilt_list'
+jni/sip/audio.c:936: error: undefined reference to 'auplay_find'
+jni/sip/audio.c:954: error: undefined reference to 'auplay_alloc'
+jni/sip/audio.c:1012: error: undefined reference to 'ausrc_find'
+jni/sip/audio.c:1029: error: undefined reference to 'ausrc_alloc'
+jni/sip/audio.c:1081: error: undefined reference to 'aufilt_list'
+jni/sip/audio.c:1169: error: undefined reference to 'stream_set_srate'
+jni/sip/audio.c:1170: error: undefined reference to 'stream_update_encoder'
+jni/sip/audio.c:1212: error: undefined reference to 'stream_set_srate'
+jni/sip/audio.c:1240: error: undefined reference to 'sdp_media_format_cycle'
+jni/sip/audio.c:1380: error: undefined reference to 'stream_debug'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+22:23:36 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= alog.c
+[armeabi] Compile thumb  : sip <= log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+[armeabi] Compile thumb  : sip <= ua.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/sip/ua.c:182: error: undefined reference to 'reg_register'
+jni/sip/ua.c:206: error: undefined reference to 'reg_isok'
+jni/sip/ua.c:257: error: undefined reference to 'play_file'
+jni/sip/ua.c:262: error: undefined reference to 'play_file'
+jni/sip/ua.c:271: error: undefined reference to 'play_file'
+jni/sip/ua.c:291: error: undefined reference to 'play_file'
+jni/sip/ua.c:345: error: undefined reference to 'conf_config'
+jni/sip/ua.c:479: error: undefined reference to 'account_alloc'
+jni/sip/ua.c:524: error: undefined reference to 'reg_add'
+jni/sip/ua.c:531: error: undefined reference to 'reg_add'
+jni/sip/ua.c:722: error: undefined reference to 'reg_status'
+jni/sip/ua.c:748: error: undefined reference to 'sip_req_send'
+jni/sip/ua.c:833: error: undefined reference to 'account_debug'
+jni/sip/ua.c:836: error: undefined reference to 'reg_debug'
+jni/sip/ua.c:924: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:925: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1025: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1064: error: undefined reference to 'conf_config'
+jni/sip/ua.c:1070: error: undefined reference to 'ui_init'
+jni/sip/ua.c:1072: error: undefined reference to 'play_init'
+jni/sip/ua.c:1075: error: undefined reference to 'net_init'
+jni/sip/ua.c:1088: error: undefined reference to 'net_dnsc'
+jni/sip/ua.c:1112: error: undefined reference to 'cmd_register'
+jni/sip/ua.c:1116: error: undefined reference to 'net_change'
+jni/sip/ua.c:1132: error: undefined reference to 'cmd_unregister'
+jni/sip/ua.c:1133: error: undefined reference to 'net_close'
+jni/sip/ua.c:1134: error: undefined reference to 'play_close'
+jni/sip/ua.c:1157: error: undefined reference to 'module_app_unload'
+jni/sip/ua.c:1190: error: undefined reference to 'net_check'
+jni/sip/ua.c:1345: error: undefined reference to 'reg_sipfd'
+jni/sip/ua.c:1422: error: undefined reference to 'account_laddr'
+jni/sip/call.c:112: error: undefined reference to 'stream_sdpmedia'
+jni/sip/call.c:170: error: undefined reference to 'stream_reset'
+jni/sip/call.c:286: error: undefined reference to 'stream_update'
+jni/sip/call.c:292: error: undefined reference to 'stream_sdpmedia'
+jni/sip/call.c:463: error: undefined reference to 'net_laddr_af'
+jni/sip/call.c:478: error: undefined reference to 'net_dnsc'
+jni/sip/call.c:507: error: undefined reference to 'account_aucodecl'
+jni/sip/call.c:730: error: undefined reference to 'stream_sdpmedia'
+jni/sip/call.c:730: error: undefined reference to 'sdp_media_has_media'
+jni/sip/call.c:772: error: undefined reference to 'stream_hold'
+jni/sip/call.c:866: error: undefined reference to 'stream_print'
+jni/sip/call.c:888: error: undefined reference to 'stream_jbuf_stat'
+jni/sip/call.c:931: error: undefined reference to 'account_auth'
+jni/sip/call.c:971: error: undefined reference to 'sdp_decode_multipart'
+jni/sip/call.c:1188: error: undefined reference to 'stream_sdpmedia'
+jni/sip/call.c:1294: error: undefined reference to 'sdp_decode_multipart'
+jni/sip/audio.c:327: error: undefined reference to 'stream_send'
+jni/sip/audio.c:410: error: undefined reference to 'stream_send'
+jni/sip/audio.c:666: error: undefined reference to 'stream_alloc'
+jni/sip/audio.c:675: error: undefined reference to 'stream_set_bw'
+jni/sip/audio.c:741: error: undefined reference to 'realtime_enable'
+jni/sip/audio.c:857: error: undefined reference to 'aufilt_list'
+jni/sip/audio.c:936: error: undefined reference to 'auplay_find'
+jni/sip/audio.c:954: error: undefined reference to 'auplay_alloc'
+jni/sip/audio.c:1012: error: undefined reference to 'ausrc_find'
+jni/sip/audio.c:1029: error: undefined reference to 'ausrc_alloc'
+jni/sip/audio.c:1081: error: undefined reference to 'aufilt_list'
+jni/sip/audio.c:1169: error: undefined reference to 'stream_set_srate'
+jni/sip/audio.c:1170: error: undefined reference to 'stream_update_encoder'
+jni/sip/audio.c:1212: error: undefined reference to 'stream_set_srate'
+jni/sip/audio.c:1240: error: undefined reference to 'sdp_media_format_cycle'
+jni/sip/audio.c:1380: error: undefined reference to 'stream_debug'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+22:25:48 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= alog.c
+[armeabi] Compile thumb  : sip <= log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+[armeabi] Compile thumb  : sip <= stream.c
+[armeabi] Compile thumb  : sip <= ua.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/sip/ua.c:182: error: undefined reference to 'reg_register'
+jni/sip/ua.c:206: error: undefined reference to 'reg_isok'
+jni/sip/ua.c:257: error: undefined reference to 'play_file'
+jni/sip/ua.c:262: error: undefined reference to 'play_file'
+jni/sip/ua.c:271: error: undefined reference to 'play_file'
+jni/sip/ua.c:291: error: undefined reference to 'play_file'
+jni/sip/ua.c:345: error: undefined reference to 'conf_config'
+jni/sip/ua.c:479: error: undefined reference to 'account_alloc'
+jni/sip/ua.c:524: error: undefined reference to 'reg_add'
+jni/sip/ua.c:531: error: undefined reference to 'reg_add'
+jni/sip/ua.c:722: error: undefined reference to 'reg_status'
+jni/sip/ua.c:748: error: undefined reference to 'sip_req_send'
+jni/sip/ua.c:833: error: undefined reference to 'account_debug'
+jni/sip/ua.c:836: error: undefined reference to 'reg_debug'
+jni/sip/ua.c:924: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:925: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1025: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1064: error: undefined reference to 'conf_config'
+jni/sip/ua.c:1070: error: undefined reference to 'ui_init'
+jni/sip/ua.c:1072: error: undefined reference to 'play_init'
+jni/sip/ua.c:1075: error: undefined reference to 'net_init'
+jni/sip/ua.c:1088: error: undefined reference to 'net_dnsc'
+jni/sip/ua.c:1112: error: undefined reference to 'cmd_register'
+jni/sip/ua.c:1116: error: undefined reference to 'net_change'
+jni/sip/ua.c:1132: error: undefined reference to 'cmd_unregister'
+jni/sip/ua.c:1133: error: undefined reference to 'net_close'
+jni/sip/ua.c:1134: error: undefined reference to 'play_close'
+jni/sip/ua.c:1157: error: undefined reference to 'module_app_unload'
+jni/sip/ua.c:1190: error: undefined reference to 'net_check'
+jni/sip/ua.c:1345: error: undefined reference to 'reg_sipfd'
+jni/sip/ua.c:1422: error: undefined reference to 'account_laddr'
+jni/sip/call.c:463: error: undefined reference to 'net_laddr_af'
+jni/sip/call.c:478: error: undefined reference to 'net_dnsc'
+jni/sip/call.c:507: error: undefined reference to 'account_aucodecl'
+jni/sip/call.c:730: error: undefined reference to 'sdp_media_has_media'
+jni/sip/call.c:931: error: undefined reference to 'account_auth'
+jni/sip/call.c:971: error: undefined reference to 'sdp_decode_multipart'
+jni/sip/call.c:1294: error: undefined reference to 'sdp_decode_multipart'
+jni/sip/stream.c:54: error: undefined reference to 'metric_avg_bitrate'
+jni/sip/stream.c:55: error: undefined reference to 'metric_avg_bitrate'
+jni/sip/stream.c:79: error: undefined reference to 'metric_reset'
+jni/sip/stream.c:80: error: undefined reference to 'metric_reset'
+jni/sip/stream.c:107: error: undefined reference to 'metric_add_packet'
+jni/sip/stream.c:344: error: undefined reference to 'rtpkeep_alloc'
+jni/sip/stream.c:366: error: undefined reference to 'metric_add_packet'
+jni/sip/stream.c:378: error: undefined reference to 'rtpkeep_refresh'
+jni/sip/stream.c:421: error: undefined reference to 'sdp_media_has_media'
+jni/sip/audio.c:741: error: undefined reference to 'realtime_enable'
+jni/sip/audio.c:857: error: undefined reference to 'aufilt_list'
+jni/sip/audio.c:936: error: undefined reference to 'auplay_find'
+jni/sip/audio.c:954: error: undefined reference to 'auplay_alloc'
+jni/sip/audio.c:1012: error: undefined reference to 'ausrc_find'
+jni/sip/audio.c:1029: error: undefined reference to 'ausrc_alloc'
+jni/sip/audio.c:1081: error: undefined reference to 'aufilt_list'
+jni/sip/audio.c:1240: error: undefined reference to 'sdp_media_format_cycle'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+22:26:52 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= alog.c
+[armeabi] Compile thumb  : sip <= log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+[armeabi] Compile thumb  : sip <= stream.c
+[armeabi] Compile thumb  : sip <= realtime.c
+[armeabi] Compile thumb  : sip <= ua.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/sip/ua.c:182: error: undefined reference to 'reg_register'
+jni/sip/ua.c:206: error: undefined reference to 'reg_isok'
+jni/sip/ua.c:257: error: undefined reference to 'play_file'
+jni/sip/ua.c:262: error: undefined reference to 'play_file'
+jni/sip/ua.c:271: error: undefined reference to 'play_file'
+jni/sip/ua.c:291: error: undefined reference to 'play_file'
+jni/sip/ua.c:345: error: undefined reference to 'conf_config'
+jni/sip/ua.c:479: error: undefined reference to 'account_alloc'
+jni/sip/ua.c:524: error: undefined reference to 'reg_add'
+jni/sip/ua.c:531: error: undefined reference to 'reg_add'
+jni/sip/ua.c:722: error: undefined reference to 'reg_status'
+jni/sip/ua.c:748: error: undefined reference to 'sip_req_send'
+jni/sip/ua.c:833: error: undefined reference to 'account_debug'
+jni/sip/ua.c:836: error: undefined reference to 'reg_debug'
+jni/sip/ua.c:924: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:925: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1025: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1064: error: undefined reference to 'conf_config'
+jni/sip/ua.c:1070: error: undefined reference to 'ui_init'
+jni/sip/ua.c:1072: error: undefined reference to 'play_init'
+jni/sip/ua.c:1075: error: undefined reference to 'net_init'
+jni/sip/ua.c:1088: error: undefined reference to 'net_dnsc'
+jni/sip/ua.c:1112: error: undefined reference to 'cmd_register'
+jni/sip/ua.c:1116: error: undefined reference to 'net_change'
+jni/sip/ua.c:1132: error: undefined reference to 'cmd_unregister'
+jni/sip/ua.c:1133: error: undefined reference to 'net_close'
+jni/sip/ua.c:1134: error: undefined reference to 'play_close'
+jni/sip/ua.c:1157: error: undefined reference to 'module_app_unload'
+jni/sip/ua.c:1190: error: undefined reference to 'net_check'
+jni/sip/ua.c:1345: error: undefined reference to 'reg_sipfd'
+jni/sip/ua.c:1422: error: undefined reference to 'account_laddr'
+jni/sip/call.c:463: error: undefined reference to 'net_laddr_af'
+jni/sip/call.c:478: error: undefined reference to 'net_dnsc'
+jni/sip/call.c:507: error: undefined reference to 'account_aucodecl'
+jni/sip/call.c:730: error: undefined reference to 'sdp_media_has_media'
+jni/sip/call.c:931: error: undefined reference to 'account_auth'
+jni/sip/call.c:971: error: undefined reference to 'sdp_decode_multipart'
+jni/sip/call.c:1294: error: undefined reference to 'sdp_decode_multipart'
+jni/sip/stream.c:54: error: undefined reference to 'metric_avg_bitrate'
+jni/sip/stream.c:55: error: undefined reference to 'metric_avg_bitrate'
+jni/sip/stream.c:79: error: undefined reference to 'metric_reset'
+jni/sip/stream.c:80: error: undefined reference to 'metric_reset'
+jni/sip/stream.c:107: error: undefined reference to 'metric_add_packet'
+jni/sip/stream.c:344: error: undefined reference to 'rtpkeep_alloc'
+jni/sip/stream.c:366: error: undefined reference to 'metric_add_packet'
+jni/sip/stream.c:378: error: undefined reference to 'rtpkeep_refresh'
+jni/sip/stream.c:421: error: undefined reference to 'sdp_media_has_media'
+jni/sip/audio.c:857: error: undefined reference to 'aufilt_list'
+jni/sip/audio.c:936: error: undefined reference to 'auplay_find'
+jni/sip/audio.c:954: error: undefined reference to 'auplay_alloc'
+jni/sip/audio.c:1012: error: undefined reference to 'ausrc_find'
+jni/sip/audio.c:1029: error: undefined reference to 'ausrc_alloc'
+jni/sip/audio.c:1081: error: undefined reference to 'aufilt_list'
+jni/sip/audio.c:1240: error: undefined reference to 'sdp_media_format_cycle'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+22:28:18 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= alog.c
+[armeabi] Compile thumb  : sip <= log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+[armeabi] Compile thumb  : sip <= stream.c
+[armeabi] Compile thumb  : sip <= realtime.c
+[armeabi] Compile thumb  : sip <= metric.c
+[armeabi] Compile thumb  : sip <= ua.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/sip/ua.c:182: error: undefined reference to 'reg_register'
+jni/sip/ua.c:206: error: undefined reference to 'reg_isok'
+jni/sip/ua.c:257: error: undefined reference to 'play_file'
+jni/sip/ua.c:262: error: undefined reference to 'play_file'
+jni/sip/ua.c:271: error: undefined reference to 'play_file'
+jni/sip/ua.c:291: error: undefined reference to 'play_file'
+jni/sip/ua.c:345: error: undefined reference to 'conf_config'
+jni/sip/ua.c:479: error: undefined reference to 'account_alloc'
+jni/sip/ua.c:524: error: undefined reference to 'reg_add'
+jni/sip/ua.c:531: error: undefined reference to 'reg_add'
+jni/sip/ua.c:722: error: undefined reference to 'reg_status'
+jni/sip/ua.c:748: error: undefined reference to 'sip_req_send'
+jni/sip/ua.c:833: error: undefined reference to 'account_debug'
+jni/sip/ua.c:836: error: undefined reference to 'reg_debug'
+jni/sip/ua.c:924: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:925: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1025: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1064: error: undefined reference to 'conf_config'
+jni/sip/ua.c:1070: error: undefined reference to 'ui_init'
+jni/sip/ua.c:1072: error: undefined reference to 'play_init'
+jni/sip/ua.c:1075: error: undefined reference to 'net_init'
+jni/sip/ua.c:1088: error: undefined reference to 'net_dnsc'
+jni/sip/ua.c:1112: error: undefined reference to 'cmd_register'
+jni/sip/ua.c:1116: error: undefined reference to 'net_change'
+jni/sip/ua.c:1132: error: undefined reference to 'cmd_unregister'
+jni/sip/ua.c:1133: error: undefined reference to 'net_close'
+jni/sip/ua.c:1134: error: undefined reference to 'play_close'
+jni/sip/ua.c:1157: error: undefined reference to 'module_app_unload'
+jni/sip/ua.c:1190: error: undefined reference to 'net_check'
+jni/sip/ua.c:1345: error: undefined reference to 'reg_sipfd'
+jni/sip/ua.c:1422: error: undefined reference to 'account_laddr'
+jni/sip/call.c:463: error: undefined reference to 'net_laddr_af'
+jni/sip/call.c:478: error: undefined reference to 'net_dnsc'
+jni/sip/call.c:507: error: undefined reference to 'account_aucodecl'
+jni/sip/call.c:730: error: undefined reference to 'sdp_media_has_media'
+jni/sip/call.c:931: error: undefined reference to 'account_auth'
+jni/sip/call.c:971: error: undefined reference to 'sdp_decode_multipart'
+jni/sip/call.c:1294: error: undefined reference to 'sdp_decode_multipart'
+jni/sip/stream.c:344: error: undefined reference to 'rtpkeep_alloc'
+jni/sip/stream.c:378: error: undefined reference to 'rtpkeep_refresh'
+jni/sip/stream.c:421: error: undefined reference to 'sdp_media_has_media'
+jni/sip/audio.c:857: error: undefined reference to 'aufilt_list'
+jni/sip/audio.c:936: error: undefined reference to 'auplay_find'
+jni/sip/audio.c:954: error: undefined reference to 'auplay_alloc'
+jni/sip/audio.c:1012: error: undefined reference to 'ausrc_find'
+jni/sip/audio.c:1029: error: undefined reference to 'ausrc_alloc'
+jni/sip/audio.c:1081: error: undefined reference to 'aufilt_list'
+jni/sip/audio.c:1240: error: undefined reference to 'sdp_media_format_cycle'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+22:29:29 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= alog.c
+[armeabi] Compile thumb  : sip <= log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+[armeabi] Compile thumb  : sip <= stream.c
+[armeabi] Compile thumb  : sip <= realtime.c
+[armeabi] Compile thumb  : sip <= metric.c
+[armeabi] Compile thumb  : sip <= rtpkeep.c
+[armeabi] Compile thumb  : sip <= ua.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/sip/ua.c:182: error: undefined reference to 'reg_register'
+jni/sip/ua.c:206: error: undefined reference to 'reg_isok'
+jni/sip/ua.c:257: error: undefined reference to 'play_file'
+jni/sip/ua.c:262: error: undefined reference to 'play_file'
+jni/sip/ua.c:271: error: undefined reference to 'play_file'
+jni/sip/ua.c:291: error: undefined reference to 'play_file'
+jni/sip/ua.c:345: error: undefined reference to 'conf_config'
+jni/sip/ua.c:479: error: undefined reference to 'account_alloc'
+jni/sip/ua.c:524: error: undefined reference to 'reg_add'
+jni/sip/ua.c:531: error: undefined reference to 'reg_add'
+jni/sip/ua.c:722: error: undefined reference to 'reg_status'
+jni/sip/ua.c:748: error: undefined reference to 'sip_req_send'
+jni/sip/ua.c:833: error: undefined reference to 'account_debug'
+jni/sip/ua.c:836: error: undefined reference to 'reg_debug'
+jni/sip/ua.c:924: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:925: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1025: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1064: error: undefined reference to 'conf_config'
+jni/sip/ua.c:1070: error: undefined reference to 'ui_init'
+jni/sip/ua.c:1072: error: undefined reference to 'play_init'
+jni/sip/ua.c:1075: error: undefined reference to 'net_init'
+jni/sip/ua.c:1088: error: undefined reference to 'net_dnsc'
+jni/sip/ua.c:1112: error: undefined reference to 'cmd_register'
+jni/sip/ua.c:1116: error: undefined reference to 'net_change'
+jni/sip/ua.c:1132: error: undefined reference to 'cmd_unregister'
+jni/sip/ua.c:1133: error: undefined reference to 'net_close'
+jni/sip/ua.c:1134: error: undefined reference to 'play_close'
+jni/sip/ua.c:1157: error: undefined reference to 'module_app_unload'
+jni/sip/ua.c:1190: error: undefined reference to 'net_check'
+jni/sip/ua.c:1345: error: undefined reference to 'reg_sipfd'
+jni/sip/ua.c:1422: error: undefined reference to 'account_laddr'
+jni/sip/call.c:463: error: undefined reference to 'net_laddr_af'
+jni/sip/call.c:478: error: undefined reference to 'net_dnsc'
+jni/sip/call.c:507: error: undefined reference to 'account_aucodecl'
+jni/sip/call.c:730: error: undefined reference to 'sdp_media_has_media'
+jni/sip/call.c:931: error: undefined reference to 'account_auth'
+jni/sip/call.c:971: error: undefined reference to 'sdp_decode_multipart'
+jni/sip/call.c:1294: error: undefined reference to 'sdp_decode_multipart'
+jni/sip/stream.c:421: error: undefined reference to 'sdp_media_has_media'
+jni/sip/rtpkeep.c:65: error: undefined reference to 'sdp_media_find_unused_pt'
+jni/sip/audio.c:857: error: undefined reference to 'aufilt_list'
+jni/sip/audio.c:936: error: undefined reference to 'auplay_find'
+jni/sip/audio.c:954: error: undefined reference to 'auplay_alloc'
+jni/sip/audio.c:1012: error: undefined reference to 'ausrc_find'
+jni/sip/audio.c:1029: error: undefined reference to 'ausrc_alloc'
+jni/sip/audio.c:1081: error: undefined reference to 'aufilt_list'
+jni/sip/audio.c:1240: error: undefined reference to 'sdp_media_format_cycle'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+22:30:53 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= alog.c
+[armeabi] Compile thumb  : sip <= log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+[armeabi] Compile thumb  : sip <= stream.c
+[armeabi] Compile thumb  : sip <= realtime.c
+[armeabi] Compile thumb  : sip <= metric.c
+[armeabi] Compile thumb  : sip <= rtpkeep.c
+[armeabi] Compile thumb  : sip <= sdp.c
+[armeabi] Compile thumb  : sip <= ua.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/sip/ua.c:182: error: undefined reference to 'reg_register'
+jni/sip/ua.c:206: error: undefined reference to 'reg_isok'
+jni/sip/ua.c:257: error: undefined reference to 'play_file'
+jni/sip/ua.c:262: error: undefined reference to 'play_file'
+jni/sip/ua.c:271: error: undefined reference to 'play_file'
+jni/sip/ua.c:291: error: undefined reference to 'play_file'
+jni/sip/ua.c:345: error: undefined reference to 'conf_config'
+jni/sip/ua.c:479: error: undefined reference to 'account_alloc'
+jni/sip/ua.c:524: error: undefined reference to 'reg_add'
+jni/sip/ua.c:531: error: undefined reference to 'reg_add'
+jni/sip/ua.c:722: error: undefined reference to 'reg_status'
+jni/sip/ua.c:748: error: undefined reference to 'sip_req_send'
+jni/sip/ua.c:833: error: undefined reference to 'account_debug'
+jni/sip/ua.c:836: error: undefined reference to 'reg_debug'
+jni/sip/ua.c:924: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:925: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1025: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1064: error: undefined reference to 'conf_config'
+jni/sip/ua.c:1070: error: undefined reference to 'ui_init'
+jni/sip/ua.c:1072: error: undefined reference to 'play_init'
+jni/sip/ua.c:1075: error: undefined reference to 'net_init'
+jni/sip/ua.c:1088: error: undefined reference to 'net_dnsc'
+jni/sip/ua.c:1112: error: undefined reference to 'cmd_register'
+jni/sip/ua.c:1116: error: undefined reference to 'net_change'
+jni/sip/ua.c:1132: error: undefined reference to 'cmd_unregister'
+jni/sip/ua.c:1133: error: undefined reference to 'net_close'
+jni/sip/ua.c:1134: error: undefined reference to 'play_close'
+jni/sip/ua.c:1157: error: undefined reference to 'module_app_unload'
+jni/sip/ua.c:1190: error: undefined reference to 'net_check'
+jni/sip/ua.c:1345: error: undefined reference to 'reg_sipfd'
+jni/sip/ua.c:1422: error: undefined reference to 'account_laddr'
+jni/sip/call.c:463: error: undefined reference to 'net_laddr_af'
+jni/sip/call.c:478: error: undefined reference to 'net_dnsc'
+jni/sip/call.c:507: error: undefined reference to 'account_aucodecl'
+jni/sip/call.c:931: error: undefined reference to 'account_auth'
+jni/sip/audio.c:857: error: undefined reference to 'aufilt_list'
+jni/sip/audio.c:936: error: undefined reference to 'auplay_find'
+jni/sip/audio.c:954: error: undefined reference to 'auplay_alloc'
+jni/sip/audio.c:1012: error: undefined reference to 'ausrc_find'
+jni/sip/audio.c:1029: error: undefined reference to 'ausrc_alloc'
+jni/sip/audio.c:1081: error: undefined reference to 'aufilt_list'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+22:31:47 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= alog.c
+[armeabi] Compile thumb  : sip <= log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+[armeabi] Compile thumb  : sip <= stream.c
+[armeabi] Compile thumb  : sip <= realtime.c
+[armeabi] Compile thumb  : sip <= metric.c
+[armeabi] Compile thumb  : sip <= rtpkeep.c
+[armeabi] Compile thumb  : sip <= sdp.c
+[armeabi] Compile thumb  : sip <= aufilt.c
+[armeabi] Compile thumb  : sip <= ua.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/sip/ua.c:182: error: undefined reference to 'reg_register'
+jni/sip/ua.c:206: error: undefined reference to 'reg_isok'
+jni/sip/ua.c:257: error: undefined reference to 'play_file'
+jni/sip/ua.c:262: error: undefined reference to 'play_file'
+jni/sip/ua.c:271: error: undefined reference to 'play_file'
+jni/sip/ua.c:291: error: undefined reference to 'play_file'
+jni/sip/ua.c:345: error: undefined reference to 'conf_config'
+jni/sip/ua.c:479: error: undefined reference to 'account_alloc'
+jni/sip/ua.c:524: error: undefined reference to 'reg_add'
+jni/sip/ua.c:531: error: undefined reference to 'reg_add'
+jni/sip/ua.c:722: error: undefined reference to 'reg_status'
+jni/sip/ua.c:748: error: undefined reference to 'sip_req_send'
+jni/sip/ua.c:833: error: undefined reference to 'account_debug'
+jni/sip/ua.c:836: error: undefined reference to 'reg_debug'
+jni/sip/ua.c:924: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:925: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1025: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1064: error: undefined reference to 'conf_config'
+jni/sip/ua.c:1070: error: undefined reference to 'ui_init'
+jni/sip/ua.c:1072: error: undefined reference to 'play_init'
+jni/sip/ua.c:1075: error: undefined reference to 'net_init'
+jni/sip/ua.c:1088: error: undefined reference to 'net_dnsc'
+jni/sip/ua.c:1112: error: undefined reference to 'cmd_register'
+jni/sip/ua.c:1116: error: undefined reference to 'net_change'
+jni/sip/ua.c:1132: error: undefined reference to 'cmd_unregister'
+jni/sip/ua.c:1133: error: undefined reference to 'net_close'
+jni/sip/ua.c:1134: error: undefined reference to 'play_close'
+jni/sip/ua.c:1157: error: undefined reference to 'module_app_unload'
+jni/sip/ua.c:1190: error: undefined reference to 'net_check'
+jni/sip/ua.c:1345: error: undefined reference to 'reg_sipfd'
+jni/sip/ua.c:1422: error: undefined reference to 'account_laddr'
+jni/sip/call.c:463: error: undefined reference to 'net_laddr_af'
+jni/sip/call.c:478: error: undefined reference to 'net_dnsc'
+jni/sip/call.c:507: error: undefined reference to 'account_aucodecl'
+jni/sip/call.c:931: error: undefined reference to 'account_auth'
+jni/sip/audio.c:936: error: undefined reference to 'auplay_find'
+jni/sip/audio.c:954: error: undefined reference to 'auplay_alloc'
+jni/sip/audio.c:1012: error: undefined reference to 'ausrc_find'
+jni/sip/audio.c:1029: error: undefined reference to 'ausrc_alloc'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+22:33:41 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= alog.c
+[armeabi] Compile thumb  : sip <= log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+[armeabi] Compile thumb  : sip <= stream.c
+[armeabi] Compile thumb  : sip <= realtime.c
+[armeabi] Compile thumb  : sip <= metric.c
+[armeabi] Compile thumb  : sip <= rtpkeep.c
+[armeabi] Compile thumb  : sip <= sdp.c
+[armeabi] Compile thumb  : sip <= aufilt.c
+[armeabi] Compile thumb  : sip <= auplay.c
+[armeabi] Compile thumb  : sip <= ua.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/sip/ua.c:182: error: undefined reference to 'reg_register'
+jni/sip/ua.c:206: error: undefined reference to 'reg_isok'
+jni/sip/ua.c:257: error: undefined reference to 'play_file'
+jni/sip/ua.c:262: error: undefined reference to 'play_file'
+jni/sip/ua.c:271: error: undefined reference to 'play_file'
+jni/sip/ua.c:291: error: undefined reference to 'play_file'
+jni/sip/ua.c:345: error: undefined reference to 'conf_config'
+jni/sip/ua.c:479: error: undefined reference to 'account_alloc'
+jni/sip/ua.c:524: error: undefined reference to 'reg_add'
+jni/sip/ua.c:531: error: undefined reference to 'reg_add'
+jni/sip/ua.c:722: error: undefined reference to 'reg_status'
+jni/sip/ua.c:748: error: undefined reference to 'sip_req_send'
+jni/sip/ua.c:833: error: undefined reference to 'account_debug'
+jni/sip/ua.c:836: error: undefined reference to 'reg_debug'
+jni/sip/ua.c:924: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:925: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1025: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1064: error: undefined reference to 'conf_config'
+jni/sip/ua.c:1070: error: undefined reference to 'ui_init'
+jni/sip/ua.c:1072: error: undefined reference to 'play_init'
+jni/sip/ua.c:1075: error: undefined reference to 'net_init'
+jni/sip/ua.c:1088: error: undefined reference to 'net_dnsc'
+jni/sip/ua.c:1112: error: undefined reference to 'cmd_register'
+jni/sip/ua.c:1116: error: undefined reference to 'net_change'
+jni/sip/ua.c:1132: error: undefined reference to 'cmd_unregister'
+jni/sip/ua.c:1133: error: undefined reference to 'net_close'
+jni/sip/ua.c:1134: error: undefined reference to 'play_close'
+jni/sip/ua.c:1157: error: undefined reference to 'module_app_unload'
+jni/sip/ua.c:1190: error: undefined reference to 'net_check'
+jni/sip/ua.c:1345: error: undefined reference to 'reg_sipfd'
+jni/sip/ua.c:1422: error: undefined reference to 'account_laddr'
+jni/sip/call.c:463: error: undefined reference to 'net_laddr_af'
+jni/sip/call.c:478: error: undefined reference to 'net_dnsc'
+jni/sip/call.c:507: error: undefined reference to 'account_aucodecl'
+jni/sip/call.c:931: error: undefined reference to 'account_auth'
+jni/sip/audio.c:1012: error: undefined reference to 'ausrc_find'
+jni/sip/audio.c:1029: error: undefined reference to 'ausrc_alloc'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+22:34:21 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] Compile++ thumb: smp_sip_jni <= sip_jni.cpp
+[armeabi] Compile thumb  : sip <= sip_ua.c
+[armeabi] Compile thumb  : sip <= alog.c
+[armeabi] Compile thumb  : sip <= log.c
+[armeabi] Compile thumb  : sip <= audio.c
+[armeabi] Compile thumb  : sip <= call.c
+[armeabi] Compile thumb  : sip <= stream.c
+[armeabi] Compile thumb  : sip <= realtime.c
+[armeabi] Compile thumb  : sip <= metric.c
+[armeabi] Compile thumb  : sip <= rtpkeep.c
+[armeabi] Compile thumb  : sip <= sdp.c
+[armeabi] Compile thumb  : sip <= aufilt.c
+[armeabi] Compile thumb  : sip <= auplay.c
+[armeabi] Compile thumb  : sip <= ausrc.c
+[armeabi] Compile thumb  : sip <= ua.c
+[armeabi] StaticLibrary  : libsip.a
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/sip/ua.c:182: error: undefined reference to 'reg_register'
+jni/sip/ua.c:206: error: undefined reference to 'reg_isok'
+jni/sip/ua.c:257: error: undefined reference to 'play_file'
+jni/sip/ua.c:262: error: undefined reference to 'play_file'
+jni/sip/ua.c:271: error: undefined reference to 'play_file'
+jni/sip/ua.c:291: error: undefined reference to 'play_file'
+jni/sip/ua.c:345: error: undefined reference to 'conf_config'
+jni/sip/ua.c:479: error: undefined reference to 'account_alloc'
+jni/sip/ua.c:524: error: undefined reference to 'reg_add'
+jni/sip/ua.c:531: error: undefined reference to 'reg_add'
+jni/sip/ua.c:722: error: undefined reference to 'reg_status'
+jni/sip/ua.c:748: error: undefined reference to 'sip_req_send'
+jni/sip/ua.c:833: error: undefined reference to 'account_debug'
+jni/sip/ua.c:836: error: undefined reference to 'reg_debug'
+jni/sip/ua.c:924: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:925: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1025: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1064: error: undefined reference to 'conf_config'
+jni/sip/ua.c:1070: error: undefined reference to 'ui_init'
+jni/sip/ua.c:1072: error: undefined reference to 'play_init'
+jni/sip/ua.c:1075: error: undefined reference to 'net_init'
+jni/sip/ua.c:1088: error: undefined reference to 'net_dnsc'
+jni/sip/ua.c:1112: error: undefined reference to 'cmd_register'
+jni/sip/ua.c:1116: error: undefined reference to 'net_change'
+jni/sip/ua.c:1132: error: undefined reference to 'cmd_unregister'
+jni/sip/ua.c:1133: error: undefined reference to 'net_close'
+jni/sip/ua.c:1134: error: undefined reference to 'play_close'
+jni/sip/ua.c:1157: error: undefined reference to 'module_app_unload'
+jni/sip/ua.c:1190: error: undefined reference to 'net_check'
+jni/sip/ua.c:1345: error: undefined reference to 'reg_sipfd'
+jni/sip/ua.c:1422: error: undefined reference to 'account_laddr'
+jni/sip/call.c:463: error: undefined reference to 'net_laddr_af'
+jni/sip/call.c:478: error: undefined reference to 'net_dnsc'
+jni/sip/call.c:507: error: undefined reference to 'account_aucodecl'
+jni/sip/call.c:931: error: undefined reference to 'account_auth'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1
+22:37:43 **** Incremental Build of configuration Default for project CallVoiceChanger ****
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/ndk-build NDK_DEBUG=1 all 
+[armeabi] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi/gdbserver
+[armeabi] Gdbsetup       : libs/armeabi/gdb.setup
+[armeabi-v7a] Gdbserver      : [arm-linux-androideabi-4.8] libs/armeabi-v7a/gdbserver
+[armeabi-v7a] Gdbsetup       : libs/armeabi-v7a/gdb.setup
+[armeabi] SharedLibrary  : libsmp_sip_jni.so
+jni/sip/ua.c:182: error: undefined reference to 'reg_register'
+jni/sip/ua.c:206: error: undefined reference to 'reg_isok'
+jni/sip/ua.c:257: error: undefined reference to 'play_file'
+jni/sip/ua.c:262: error: undefined reference to 'play_file'
+jni/sip/ua.c:271: error: undefined reference to 'play_file'
+jni/sip/ua.c:291: error: undefined reference to 'play_file'
+jni/sip/ua.c:345: error: undefined reference to 'conf_config'
+jni/sip/ua.c:479: error: undefined reference to 'account_alloc'
+jni/sip/ua.c:524: error: undefined reference to 'reg_add'
+jni/sip/ua.c:531: error: undefined reference to 'reg_add'
+jni/sip/ua.c:722: error: undefined reference to 'reg_status'
+jni/sip/ua.c:748: error: undefined reference to 'sip_req_send'
+jni/sip/ua.c:833: error: undefined reference to 'account_debug'
+jni/sip/ua.c:836: error: undefined reference to 'reg_debug'
+jni/sip/ua.c:924: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:925: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1025: error: undefined reference to 'net_laddr_af'
+jni/sip/ua.c:1064: error: undefined reference to 'conf_config'
+jni/sip/ua.c:1070: error: undefined reference to 'ui_init'
+jni/sip/ua.c:1072: error: undefined reference to 'play_init'
+jni/sip/ua.c:1075: error: undefined reference to 'net_init'
+jni/sip/ua.c:1088: error: undefined reference to 'net_dnsc'
+jni/sip/ua.c:1112: error: undefined reference to 'cmd_register'
+jni/sip/ua.c:1116: error: undefined reference to 'net_change'
+jni/sip/ua.c:1132: error: undefined reference to 'cmd_unregister'
+jni/sip/ua.c:1133: error: undefined reference to 'net_close'
+jni/sip/ua.c:1134: error: undefined reference to 'play_close'
+jni/sip/ua.c:1157: error: undefined reference to 'module_app_unload'
+jni/sip/ua.c:1190: error: undefined reference to 'net_check'
+jni/sip/ua.c:1345: error: undefined reference to 'reg_sipfd'
+jni/sip/ua.c:1422: error: undefined reference to 'account_laddr'
+jni/sip/call.c:463: error: undefined reference to 'net_laddr_af'
+jni/sip/call.c:478: error: undefined reference to 'net_dnsc'
+jni/sip/call.c:507: error: undefined reference to 'account_aucodecl'
+jni/sip/call.c:931: error: undefined reference to 'account_auth'
+collect2: error: ld returned 1 exit status
+make: *** [obj/local/armeabi/libsmp_sip_jni.so] Error 1

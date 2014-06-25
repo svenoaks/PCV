@@ -71,8 +71,9 @@ obj/local/armeabi-v7a/objs-debug/sip/sip/call.o: jni/sip/call.c \
  jni/re/include/re_srtp.h jni/re/include/re_sys.h jni/re/include/re_tcp.h \
  jni/re/include/re_telev.h jni/re/include/re_tmr.h \
  jni/re/include/re_tls.h jni/re/include/re_turn.h jni/re/include/re_udp.h \
- jni/re/include/re_websock.h jni/sip/include/baresip.h \
- jni/sip/include/core.h jni/sip/include/magic.h
+ jni/re/include/re_websock.h jni/re/include/re_log.h \
+ /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h \
+ jni/sip/include/baresip.h jni/sip/include/core.h jni/sip/include/magic.h
 
 /Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/stdio.h:
 
@@ -267,6 +268,10 @@ jni/re/include/re_turn.h:
 jni/re/include/re_udp.h:
 
 jni/re/include/re_websock.h:
+
+jni/re/include/re_log.h:
+
+/Applications/adt-bundle-mac-x86_64-20140321/ndk/platforms/android-12/arch-arm/usr/include/android/log.h:
 
 jni/sip/include/baresip.h:
 

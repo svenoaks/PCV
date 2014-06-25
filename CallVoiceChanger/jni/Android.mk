@@ -29,9 +29,19 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libsip
 LOCAL_SRC_FILES := \
 	sip/sip_ua.c \
-	sip/and_log.c \
+	sip/alog.c \
+	sip/log.c \
 	sip/audio.c \
-	sip/call.c
+	sip/call.c \
+	sip/stream.c \
+	sip/realtime.c \
+	sip/metric.c \
+	sip/rtpkeep.c \
+	sip/sdp.c \
+	sip/aufilt.c \
+	sip/auplay.c \
+	sip/ausrc.c \
+	sip/ua.c
 	
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/sip/include
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/sip/include

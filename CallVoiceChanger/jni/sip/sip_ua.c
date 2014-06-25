@@ -20,7 +20,7 @@
 #include <string.h>
 #include <re.h>
 #include <sip_ua.h>
-#include <and_log.h>
+#include <re_log.h>
 
 
 static struct sipsess_sock *sess_sock;  /* SIP session socket */
@@ -57,7 +57,7 @@ static int auth_handler(char **user, char **pass, const char *realm, void *arg)
 	(void)arg;
 
 	err |= str_dup(user, name);
-	err |= str_dup(pass, "xxx");
+	err |= str_dup(pass, "cantTouchthis666");
 	RE_LOGV("%s", "authenticating");
 	return err;
 }
